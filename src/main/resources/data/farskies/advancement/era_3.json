@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "create:precision_mechanism"
+    },
+    "title": {
+      "text": "Tier 4"
+    },
+    "description": {
+      "text": "Tier 4 items can now arrive in your random drops."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "supply": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "farskies:era_2"
+}

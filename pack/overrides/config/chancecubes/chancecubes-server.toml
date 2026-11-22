@@ -1,0 +1,12 @@
+["General Settings"]
+ChanceRangeMin = 10
+ChanceRangeMax = 10
+RewardsEqualChance = false
+DisableGiantCC = false
+EnableDefaultRewards = true
+GenerateAsOre = false
+GenerateOnSurface = false
+ChestLoot = false
+UserSpecificRewards = false
+GloballyDisabledRewards = false
+HolidayRewards = false

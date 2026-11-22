@@ -1,0 +1,165 @@
+# Modrinth gallery shot script for the gallery director (src/main/java/dev/farskies/qa/GallerySmoke.java).
+# Run: gradlew runClient -PpackRuntime -PclientRuntime -PclientSmoke -PgallerySmoke -PgalleryScript=publish/tools/gallery-shots.txt
+# Disposable world, seed 5788880262892164030, Complementary Reimagined r5.9.3 via Iris (HIGH profile, pack defaults).
+# Before running: set truceMinutes 0 in run-qa/config/farskies.json (hides the truce timer) and
+# enableEasterEggs = false in run-qa/config/subtle_effects/general.toml (date-based party hats); restore both afterwards.
+# Shots land in run-qa/screenshots/gallery-*.png. "actor" players are client-side stand-ins with default skins.
+rd 16
+fov 60
+gui off
+cmd time set 800
+
+# 1. Hero: a Simple Planes plane passing the cherry shrine landmark
+look 280 165 -800 230 160 -836
+wait 240
+cmd summon simpleplanes:plane 270 166 -811 {NoGravity:1b,Rotation:[80f,-8f]}
+wait 5
+actor Pilot slim/alex 270 166 -811 80 0 team=blue
+ride Pilot simpleplanes:plane
+wait 40
+shot gallery-plane
+unactor
+cmd kill @e[type=simpleplanes:plane]
+
+# 2. Landmark: steampunk island
+look -120 155 -545 -140 150 -565
+wait 240
+shot gallery-landmark
+
+# 3. Start pad with a fresh build
+fov 55
+look -76.6 153.0 -4.6 -82.0 151.0 -1.0
+wait 200
+cmd setblock -82 150 -1 cobblestone
+cmd setblock -82 150 0 water
+cmd setblock -82 150 1 cobblestone
+cmd setblock -83 150 0 cobblestone
+cmd setblock -84 150 0 lava
+cmd setblock -85 150 0 cobblestone
+cmd setblock -84 150 -1 cobblestone
+cmd setblock -84 150 1 cobblestone
+cmd setblock -82 149 0 cobblestone
+cmd setblock -83 149 0 cobblestone
+cmd setblock -84 149 0 cobblestone
+cmd setblock -79 151 1 oak_sapling
+cmd setblock -81 151 1 chest[facing=north]
+cmd setblock -81 151 0 torch
+actor Ari wide/steve -80.1 151 -0.2 -120 0 team=red main=minecraft:stone_pickaxe
+wait 40
+shot gallery-start-pad
+unactor
+
+# 4. Market island
+fov 60
+actor Ari wide/steve 4.5 151 18.5 20 0 team=red main=minecraft:carrot
+actor Bo slim/alex -1.8 151 20.2 -120 10 team=blue main=minecraft:emerald
+look 10 153.5 10 1 152.5 24
+wait 200
+shot gallery-market
+unactor
+
+# 5. Create base on Blue's pad
+# --- blue base: mid-game island with Create machinery
+cmd fill 70 140 -12 95 165 12 air
+cmd fill 76 150 -3 84 150 3 grass_block
+cmd fill 77 149 -2 83 149 2 dirt
+cmd fill 78 148 -1 82 148 1 stone
+cmd setblock 80 147 0 cobblestone
+cmd setblock 85 153 0 create:water_wheel[facing=east]
+cmd setblock 84 153 0 create:shaft[axis=x]
+cmd setblock 83 153 0 create:mechanical_press[facing=west]
+cmd setblock 83 151 0 create:depot
+cmd setblock 84 151 0 create:andesite_casing
+cmd setblock 84 152 0 create:andesite_casing
+cmd setblock 82 153 0 create:shaft[axis=x]
+cmd setblock 81 153 0 create:gearbox[axis=z]
+cmd setblock 81 152 0 create:shaft[axis=y]
+cmd setblock 81 151 0 create:millstone
+cmd setblock 80 153 0 create:shaft[axis=x]
+cmd setblock 79 153 0 create:large_cogwheel[axis=x]
+cmd setblock 79 151 0 create:andesite_casing
+cmd setblock 79 152 0 create:andesite_casing
+cmd setblock 77 151 -2 exdeorum:oak_sieve
+cmd setblock 78 151 -2 exdeorum:oak_barrel
+cmd setblock 76 151 -2 exdeorum:porcelain_crucible
+cmd setblock 83 151 -3 chest[facing=south]
+cmd setblock 82 151 -3 chest[facing=south]
+cmd setblock 81 151 -3 crafting_table
+cmd setblock 80 151 -3 furnace[facing=south,lit=true]
+cmd fill 76 150 1 78 150 3 farmland[moisture=7]
+cmd setblock 77 150 2 water
+cmd fill 76 151 1 78 151 3 wheat[age=7]
+cmd setblock 77 151 2 air
+cmd place feature minecraft:oak 77 151 -0
+cmd setblock 82 151 2 lantern
+cmd fill 85 151 -3 85 151 3 stone_bricks
+cmd fill 86 152 -3 86 152 3 stone_brick_slab[type=bottom]
+cmd fill 84 152 -3 84 152 -1 stone_brick_slab[type=bottom]
+cmd fill 84 152 1 84 152 3 stone_brick_slab[type=bottom]
+cmd setblock 85 152 3 stone_bricks
+cmd setblock 85 152 -3 stone_bricks
+cmd setblock 85 152 -2 water
+cmd setblock 76 151 3 blue_banner[rotation=8]
+cmd setblock 82 151 2 lantern
+cmd summon item 83.5 152.2 0.5 {Item:{id:"minecraft:iron_ingot",count:8},PickupDelay:32767}
+actor Bo slim/alex 81.6 151 2.0 -160 15 team=blue main=create:wrench
+look 84.5 154.6 7.5 81.5 152.3 -0.5
+wait 200
+cmdv data get block 83 153 0 Speed
+shot gallery-base-create
+unactor
+
+# 6. Chance Cube: the native "quidditch" reward on a cherry grove island
+look 177.0 153.2 -202.6 170.5 153.0 -209.6
+wait 200
+cmd setblock 170 150 -209 chancecubes:chance_cube
+actor Bo slim/alex 168.4 150 -209.4 -95 25 team=blue main=minecraft:iron_pickaxe swing=0.55
+look 171.0 151.6 -209.6 171 151 -215
+wait 3
+cmd chancecubes spawnReward chancecubes:quidditch @s
+look 177.0 153.2 -202.6 170.5 153.0 -209.6
+wait 40
+shot gallery-chance-cube
+unactor
+cmd kill @e[type=witch]
+cmd kill @e[type=bat]
+
+# 7. Random drops HUD on the start pad
+fov 70
+player -80.2 151 0.4 100 -6 survival
+wait 60
+cmd clear @s
+only minecraft:hotbar,minecraft:player_health,minecraft:food_level,minecraft:experience_bar,minecraft:armor_level,farskies:delivery,appleskin:health_offset,appleskin:food_offset,farmersdelight:health_offset,farmersdelight:food_offset
+hand off
+gui on
+deliver 1
+wait 5
+deliver 1
+wait 5
+deliver 1
+wait 5
+deliver 1
+wait 5
+deliver 1
+wait 30
+toasts
+wait 4
+shot gallery-random-drop
+hand on
+
+# 8. Sky cache announcement
+# The event picks a random loaded middle island and skips the last three sites, so the
+# frame varies per run. The published shot is the cache at -48, -82 (jungle island);
+# re-run "cmd skies event cancel" + this block until a site with the cache in view comes up.
+gui off
+fov 60
+look 0 175 -60 0 150 -100
+wait 200
+only minecraft:chat
+gui on
+chat clear
+cmd skies event start
+wait 2
+lookevent 11 4 13 0
+wait 80
+shot gallery-sky-cache

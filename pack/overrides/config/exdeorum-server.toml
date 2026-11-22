@@ -1,0 +1,3 @@
+[server]
+starting_torch = false
+starting_watering_can = false

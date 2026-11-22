@@ -1,0 +1,1841 @@
+{
+  "minecraft": "1.21.1",
+  "neoforge": "21.1.265",
+  "mods": [
+    {
+      "project": "create",
+      "project_id": "LNytGWDc",
+      "version_id": "UjX6dr61",
+      "version": "6.0.10+mc1.21.1",
+      "minecraft": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "filename": "create-1.21.1-6.0.10.jar",
+      "url": "https://cdn.modrinth.com/data/LNytGWDc/versions/UjX6dr61/create-1.21.1-6.0.10.jar",
+      "size": 19123767,
+      "hashes": {
+        "sha1": "0e97e49837bed766e6f28a4c95b04885d6acc353",
+        "sha512": "11cc8fc049d2f67f6548c7abfada6b82a3adb5c7ca410a742de04bbca76e03862c518721b88d806f6e6d768a4d68531fdb903a85859b25d1484d550cc7bafd4b"
+      },
+      "dependencies": [],
+      "client": "optional",
+      "server": "required",
+      "license": "LicenseRef-Create-Mod-License",
+      "source": "https://modrinth.com/mod/create"
+    },
+    {
+      "project": "create-sifting",
+      "project_id": "r018adCw",
+      "version_id": "Z5bTlA6P",
+      "version": "1.21.1-2.3.0",
+      "minecraft": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "filename": "createsifter-1.21.1-2.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/r018adCw/versions/Z5bTlA6P/createsifter-1.21.1-2.3.0.jar",
+      "size": 709755,
+      "hashes": {
+        "sha512": "45dc85de21ae015e9dbaa151972e7ee114e2135b667e58a33bde5ce48821b0bb03965b79fb4a9ca1a494ac6f16f45a0a47031b4c1a44d86eb1250e73fb290e77",
+        "sha1": "4cd4866a74e7da5b5d4a84ec5757ceeb17cf80f1"
+      },
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "u6dRKJwZ",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "version_id": null,
+          "project_id": "ProvjTA7",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "LNytGWDc",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ],
+      "client": "required",
+      "server": "required",
+      "license": "LGPL-3.0-only",
+      "source": "https://modrinth.com/mod/create-sifting"
+    },
+    {
+      "project": "mechanicals-lib",
+      "project_id": "ProvjTA7",
+      "version_id": "GBSlpwLT",
+      "version": "1.21.1-1.1.6",
+      "minecraft": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "filename": "mechanicals-1.21.1-1.1.6.jar",
+      "url": "https://cdn.modrinth.com/data/ProvjTA7/versions/GBSlpwLT/mechanicals-1.21.1-1.1.6.jar",
+      "size": 2022181,
+      "hashes": {
+        "sha512": "84bfcd2cbd061eb1516fc2adbca0e599a38372b80ef9f5713de70be48d072243b1c5cb84c13177c35f333b6bcf16aa1f70dbd0964ed18e14c2bff733c531c6bc",
+        "sha1": "65818a9a904983c39acfd7b2da3fe784bd35e83b"
+      },
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "umyGl7zF",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ],
+      "client": "required",
+      "server": "required",
+      "license": "LGPL-3.0-only",
+      "source": "https://modrinth.com/mod/mechanicals-lib"
+    },
+    {
+      "project": "jei",
+      "project_id": "u6dRKJwZ",
+      "version_id": "rsnYBmN3",
+      "version": "19.69.0.457",
+      "minecraft": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "filename": "jei-1.21.1-neoforge-19.69.0.457.jar",
+      "url": "https://cdn.modrinth.com/data/u6dRKJwZ/versions/rsnYBmN3/jei-1.21.1-neoforge-19.69.0.457.jar",
+      "size": 7350892,
+      "hashes": {
+        "sha512": "1d8d51f845e68066f48efd4f88dd51d7c1616d314524dc15ffa286ab9930c9cca01cfd25914ab1e0e4e8a2e9d135f5c42ee2c6e77d6ed372c836c4d342c6631f",
+        "sha1": "d413c60d16f5afd3b7acaa2deb54ce8c7b959c59"
+      },
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "7tEfOcA7",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "BOHUKqOz",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ],
+      "client": "optional",
+      "server": "optional",
+      "license": "MIT",
+      "source": "https://modrinth.com/mod/jei"
+    },
+    {
+      "project": "jade",
+      "project_id": "nvQzSEkH",
+      "version_id": "eYz2YBGT",
+      "version": "15.10.6+neoforge",
+      "minecraft": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "filename": "Jade-1.21.1-NeoForge-15.10.6.jar",
+      "url": "https://cdn.modrinth.com/data/nvQzSEkH/versions/eYz2YBGT/Jade-1.21.1-NeoForge-15.10.6.jar",
+      "size": 726853,
+      "hashes": {
+        "sha512": "dad9755dce8d85d914fc4df2baa0211f13e5839a71c1925fdd01f69081a95e30a2934e6273f8b01f0169adebe7a9dae57a8d904de0c4cb36dc17369bb474f0f2",
+        "sha1": "88ee316e68900080b017f60c12162e2731924cf8"
+      },
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "u6dRKJwZ",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ],
+      "client": "optional",
+      "server": "optional",
+      "license": "CC-BY-NC-SA-4.0",
+      "source": "https://modrinth.com/mod/jade"
+    },
+    {
+      "project": "ferrite-core",
+      "project_id": "uXXizFIs",
+      "version_id": "x7kQWVju",
+      "version": "7.0.3-neoforge",
+      "minecraft": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "filename": "ferritecore-7.0.3-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/x7kQWVju/ferritecore-7.0.3-neoforge.jar",
+      "size": 121559,
+      "hashes": {
+        "sha1": "9563692efb708b6b568df27a01ec52f6311928ef",
+        "sha512": "19af89a2075bb10a63884fa853ebf84b02c79dc3242430ecdad056fd764fdcde367a7303276b329df01b0736e2ef264c5d80c7dc92c6aebd244f556a230bb417"
+      },
+      "dependencies": [],
+      "client": "optional",
+      "server": "optional",
+      "license": "MIT",
+      "source": "https://modrinth.com/mod/ferrite-core"
+    },
+    {
+      "project": "modernfix",
+      "project_id": "nmDcB62a",
+      "version_id": "7Jy58lnT",
+      "version": "5.27.26+mc1.21.1",
+      "minecraft": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "filename": "modernfix-neoforge-5.27.26+mc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/nmDcB62a/versions/7Jy58lnT/modernfix-neoforge-5.27.26%2Bmc1.21.1.jar",
+      "size": 611043,
+      "hashes": {
+        "sha1": "69d468b70e53f6a014c778a81116a41a38fbab33",
+        "sha512": "37c76fc5bc72cfc1035260f891ffeb45b4f32651d2e490c5eb8c60f3b5686deca3145b32d4fab9036f65f5277b0ac66f4ad3855e52cd973e791b09e9c4b896d8"
+      },
+      "dependencies": [],
+      "client": "optional",
+      "server": "optional",
+      "license": "LGPL-3.0-only",
+      "source": "https://modrinth.com/mod/modernfix"
+    },
+    {
+      "project": "appleskin",
+      "project_id": "EsAfCjCV",
+      "version_id": "uAKA6Laj",
+      "version": "3.0.9+mc1.21",
+      "minecraft": [
+        "1.21",
+        "1.21.1",
+        "1.21.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "filename": "appleskin-neoforge-mc1.21-3.0.9.jar",
+      "url": "https://cdn.modrinth.com/data/EsAfCjCV/versions/uAKA6Laj/appleskin-neoforge-mc1.21-3.0.9.jar",
+      "size": 75804,
+      "hashes": {
+        "sha1": "81cf0e668f991f83ac8820c386fbd6c9c3602246",
+        "sha512": "f4ea46273e407334b63e262e2555c9a8204f7b5e60f23f272fbaa83ad9e88800e0ee186aca840710df2dbe0a18b37758695fef2ae1a902c10b3706e3de772937"
+      },
+      "dependencies": [],
+      "client": "optional",
+      "server": "optional",
+      "license": "Unlicense",
+      "source": "https://modrinth.com/mod/appleskin"
+    },
+    {
+      "project": "open-parties-and-claims",
+      "project_id": "gF3BGWvG",
+      "version_id": "yWmXD7GW",
+      "version": "neoforge-1.21.1-0.33.0",
+      "minecraft": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "filename": "open-parties-and-claims-neoforge-1.21.1-0.33.0.jar",
+      "url": "https://cdn.modrinth.com/data/gF3BGWvG/versions/yWmXD7GW/open-parties-and-claims-neoforge-1.21.1-0.33.0.jar",
+      "size": 1903256,
+      "hashes": {
+        "sha512": "646fd9796ef2dfd1132e22aacf1a417639233d90fb7eb862a718badfed955d54714c88327b7ddc651f98cd5b7d2a80e8c91233d2232680d4998fdd10ef392ffb",
+        "sha1": "6075cf36ac8d70bd1fd870e0eb9ac84685388df7"
+      },
+      "dependencies": [],
+      "client": "optional",
+      "server": "required",
+      "license": "LGPL-3.0-only",
+      "source": "https://modrinth.com/mod/open-parties-and-claims"
+    },
+    {
+      "project": "mezzconfig",
+      "project_id": "7tEfOcA7",
+      "version_id": "RdGonQpr",
+      "version": "0.6.9",
+      "minecraft": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "filename": "mezz_config-1.21.1-neoforge-0.6.9-standalone.jar",
+      "url": "https://cdn.modrinth.com/data/7tEfOcA7/versions/RdGonQpr/mezz_config-1.21.1-neoforge-0.6.9-standalone.jar",
+      "size": 345479,
+      "hashes": {
+        "sha1": "a20ecb9978bd8eebd40f4548d14b0a360a63f8a4",
+        "sha512": "2a20fdcca268c0f80547806582c94d79de6d339aabd3714af4bc5cf25ce983028f72ae707d52b44786adeb4e4c1976bebd7dbc4a75a3bf4575ec44c2bcd28dc3"
+      },
+      "dependencies": [],
+      "client": "optional",
+      "server": "optional",
+      "license": "MIT",
+      "source": "https://modrinth.com/mod/mezzconfig"
+    },
+    {
+      "project": "chance-cubes",
+      "project_id": "ur82ldLX",
+      "version_id": "1KizaIYB",
+      "version": "1.21.1-5.0.2.517",
+      "minecraft": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "filename": "ChanceCubes-1.21.1-5.0.2.517.jar",
+      "url": "https://cdn.modrinth.com/data/ur82ldLX/versions/1KizaIYB/ChanceCubes-1.21.1-5.0.2.517.jar",
+      "size": 930932,
+      "hashes": {
+        "sha512": "78b931eb195d3d0fea8fbe5988873c97fd4d99aa376ef250f646a7b0fdd7d5e1692608a511cc8707104a881a9b028724eee0debbdbef890c537162ccb7776d6f",
+        "sha1": "63d0bdfe4dd4f170817ca4c7cd587a0a4d751bed"
+      },
+      "dependencies": [],
+      "client": "required",
+      "server": "required",
+      "license": "GPL-3.0-only",
+      "source": "https://modrinth.com/mod/chance-cubes"
+    },
+    {
+      "project": "pick-up-notifier",
+      "project_id": "ZX66K16c",
+      "version_id": "5NZounJc",
+      "version": "v21.1.1-1.21.1-NeoForge",
+      "minecraft": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "filename": "PickUpNotifier-v21.1.1-1.21.1-NeoForge.jar",
+      "url": "https://cdn.modrinth.com/data/ZX66K16c/versions/5NZounJc/PickUpNotifier-v21.1.1-1.21.1-NeoForge.jar",
+      "size": 97094,
+      "hashes": {
+        "sha512": "9754f44f3bf084f45b47c88c3830dc37ffc68b4b5d6cf03ca5015177611068e8c1725670d20c0ed4674fb619227b18ccbff39cfc687a46f5258caf91c96db6db",
+        "sha1": "90d3fe207c95a3a5d849ebf8d70ffa885694e30f"
+      },
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "QAGBst4M",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "5WeWGLoJ",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ],
+      "client": "required",
+      "server": "optional",
+      "license": "MPL-2.0",
+      "source": "https://modrinth.com/mod/pick-up-notifier"
+    },
+    {
+      "project": "puzzles-lib",
+      "project_id": "QAGBst4M",
+      "version_id": "kmN5PWk9",
+      "version": "21.1.66",
+      "minecraft": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "filename": "puzzleslib-v21.1.66-mc1.21.1+neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/QAGBst4M/versions/kmN5PWk9/puzzleslib-v21.1.66-mc1.21.1%2Bneoforge.jar",
+      "size": 1451120,
+      "hashes": {
+        "sha512": "d265016586d39d7e0ac63b064fcad6fd64df79ce885ae81aa1d7a51ba32b4c6849c4b3021b563667eb392599512fe193adfa52b40d99a101ab411dd0b5c5d484",
+        "sha1": "fd584167f1277aef5411a98a22390c65cabe6e07"
+      },
+      "dependencies": [],
+      "client": "optional",
+      "server": "optional",
+      "license": "MPL-2.0",
+      "source": "https://modrinth.com/mod/puzzles-lib"
+    },
+    {
+      "project": "emi",
+      "project_id": "fRiHVvU7",
+      "version_id": "5sIPA1To",
+      "version": "1.1.24+1.21.1+neoforge",
+      "minecraft": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "filename": "emi-1.1.24+1.21.1+neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/fRiHVvU7/versions/5sIPA1To/emi-1.1.24%2B1.21.1%2Bneoforge.jar",
+      "size": 1111538,
+      "hashes": {
+        "sha512": "f4c45ed686fe617311d6debadcb6ace5963e66f8cfe0cfed398231f081f87407070efc7a73c8b695d158f1d87a97180737b9107a46771e77df2bc9a7dc715ebd",
+        "sha1": "3fd494b37027dfbc7f78414d7cbf251c9eb6738a"
+      },
+      "dependencies": [],
+      "client": "required",
+      "server": "optional",
+      "license": "MIT",
+      "source": "https://modrinth.com/mod/emi"
+    },
+    {
+      "project": "iris",
+      "project_id": "YL57xq9U",
+      "version_id": "t3ruzodq",
+      "version": "1.8.12+1.21.1-neoforge",
+      "minecraft": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "filename": "iris-neoforge-1.8.12+mc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/YL57xq9U/versions/t3ruzodq/iris-neoforge-1.8.12%2Bmc1.21.1.jar",
+      "size": 2438548,
+      "hashes": {
+        "sha512": "57b8026a3c3c433cf6123d63dc6ce7e11f6d480a72926370db1fc7f2b06059bc16a753ecd7e7af659c19e90b592103196b0e89585ce4f0744a4ca433f59bcf1a",
+        "sha1": "a3e6355915c7d3b2bc392724795113e51d289378"
+      },
+      "dependencies": [
+        {
+          "version_id": "Pb3OXVqC",
+          "project_id": "AANobbMI",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ],
+      "client": "required",
+      "server": "unsupported",
+      "license": "LGPL-3.0-only",
+      "source": "https://modrinth.com/mod/iris"
+    },
+    {
+      "project": "sodium",
+      "project_id": "AANobbMI",
+      "version_id": "Pb3OXVqC",
+      "version": "mc1.21.1-0.6.13-neoforge",
+      "minecraft": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "filename": "sodium-neoforge-0.6.13+mc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/AANobbMI/versions/Pb3OXVqC/sodium-neoforge-0.6.13%2Bmc1.21.1.jar",
+      "size": 1162994,
+      "hashes": {
+        "sha512": "ce58f34d05d96c0a109a5cea23c741f6bdb2e6be31fc087c5989274cefca5f10ba0c08c62083cf554a51f2c7667bf46e4164383f675c844e77633aef2659996b",
+        "sha1": "38af70fa4dc4b2aaac636e92fdba3bedd5a025e1"
+      },
+      "dependencies": [],
+      "client": "required",
+      "server": "unsupported",
+      "license": "LicenseRef-Polyform-Shield-1.0.0",
+      "source": "https://modrinth.com/mod/sodium"
+    },
+    {
+      "project": "lithium",
+      "project_id": "gvQqBUqZ",
+      "version_id": "DDUrRVCA",
+      "version": "mc1.21.1-0.15.4-neoforge",
+      "minecraft": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "filename": "lithium-neoforge-0.15.4+mc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/DDUrRVCA/lithium-neoforge-0.15.4%2Bmc1.21.1.jar",
+      "size": 774220,
+      "hashes": {
+        "sha1": "97212e45c963730bbfc7c44780df99317814c21b",
+        "sha512": "2735da2088b88a8bdcd4ad02a2b6fffbfd3925557cefd4fa54b5477dfb9e582ea7f521300c060f57dff1325dd21bff276b7333363ad3371ed6893e3de9eca9cd"
+      },
+      "dependencies": [],
+      "client": "optional",
+      "server": "optional",
+      "license": "LGPL-3.0-only",
+      "source": "https://modrinth.com/mod/lithium"
+    },
+    {
+      "project": "entityculling",
+      "project_id": "NNAgCjsB",
+      "version_id": "eieYbWYb",
+      "version": "1.11.3",
+      "minecraft": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "filename": "entityculling-neoforge-1.11.3-mc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/eieYbWYb/entityculling-neoforge-1.11.3-mc1.21.1.jar",
+      "size": 1510075,
+      "hashes": {
+        "sha512": "93e83dd690b91d610be29451b34836c9daa7e08bd952f88ffa07c62d8774bbaac2ff0c6768d2cbf1b14f47d0b86f98cef9fd341e0d29bd37207eaf4aa2abea63",
+        "sha1": "f122f84f329793675b2625d51b77f990d7de3579"
+      },
+      "dependencies": [],
+      "client": "required",
+      "server": "unsupported",
+      "license": "LicenseRef-tr7zw-Protective-License",
+      "source": "https://modrinth.com/mod/entityculling"
+    },
+    {
+      "project": "immediatelyfast",
+      "project_id": "5ZwdcRci",
+      "version_id": "EJzmEPZV",
+      "version": "1.6.15+1.21.1-neoforge",
+      "minecraft": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "filename": "ImmediatelyFast-NeoForge-1.6.15+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/5ZwdcRci/versions/EJzmEPZV/ImmediatelyFast-NeoForge-1.6.15%2B1.21.1.jar",
+      "size": 368896,
+      "hashes": {
+        "sha512": "c115cad7b060373fc597aae08c685e2d56f173b88b792a4a2c229e222f8da293b99865e9553cf716483d3c3d6a18f31c51c5dd55be22d4625ed2c962d7b94fd0",
+        "sha1": "f991166f7c82b493481c876e3c83c9fac4159671"
+      },
+      "dependencies": [],
+      "client": "required",
+      "server": "unsupported",
+      "license": "LGPL-3.0-or-later",
+      "source": "https://modrinth.com/mod/immediatelyfast"
+    },
+    {
+      "project": "dynamic-fps",
+      "project_id": "LQ3K71Q1",
+      "version_id": "T238FZpQ",
+      "version": "3.11.4",
+      "minecraft": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "filename": "dynamic-fps-3.11.4+minecraft-1.21.0-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/LQ3K71Q1/versions/T238FZpQ/dynamic-fps-3.11.4%2Bminecraft-1.21.0-neoforge.jar",
+      "size": 220193,
+      "hashes": {
+        "sha1": "35b17e95b2b65930116ccc83e0cc358ac1bfcf9e",
+        "sha512": "8eb18a280b265e598540306275b51a165836f4b14c6c703b6ced11fcac50bfab439e4deb69e222f62614a9f15fa0ef58e5bd84e20e37ae57755d9c2f8b134057"
+      },
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "9s6osm5g",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ],
+      "client": "required",
+      "server": "unsupported",
+      "license": "MIT",
+      "source": "https://modrinth.com/mod/dynamic-fps"
+    },
+    {
+      "project": "zume",
+      "project_id": "o6qsdrrQ",
+      "version_id": "Rh2ImJ86",
+      "version": "1.2.2",
+      "minecraft": [
+        "b1.7.3",
+        "1.6.4",
+        "13w38a",
+        "13w38b",
+        "13w38c",
+        "13w39a",
+        "13w39b",
+        "13w41a",
+        "13w41b",
+        "13w42a",
+        "13w42b",
+        "13w43a",
+        "1.7",
+        "1.7.1",
+        "1.7.2",
+        "13w47a",
+        "13w47b",
+        "13w47c",
+        "13w47d",
+        "13w47e",
+        "13w48a",
+        "13w48b",
+        "13w49a",
+        "1.7.3",
+        "1.7.4",
+        "14w02a",
+        "14w02b",
+        "14w02c",
+        "14w03a",
+        "14w03b",
+        "14w04a",
+        "14w04b",
+        "14w05a",
+        "14w05b",
+        "14w06a",
+        "14w06b",
+        "14w07a",
+        "1.7.5",
+        "14w08a",
+        "14w10a",
+        "14w10b",
+        "14w10c",
+        "1.7.6-pre1",
+        "1.7.6-pre2",
+        "14w11a",
+        "1.7.6",
+        "1.7.7",
+        "1.7.8",
+        "1.7.9",
+        "14w11b",
+        "14w17a",
+        "14w18a",
+        "14w18b",
+        "14w19a",
+        "1.7.10-pre1",
+        "1.7.10-pre2",
+        "1.7.10-pre3",
+        "1.7.10-pre4",
+        "1.7.10",
+        "14w20a",
+        "14w20b",
+        "14w21a",
+        "14w21b",
+        "14w25a",
+        "14w25b",
+        "14w26a",
+        "14w26b",
+        "14w26c",
+        "14w27a",
+        "14w27b",
+        "14w28a",
+        "14w28b",
+        "14w29a",
+        "14w29b",
+        "14w30a",
+        "14w30b",
+        "14w30c",
+        "14w31a",
+        "14w32a",
+        "14w32b",
+        "14w32c",
+        "14w32d",
+        "14w33a",
+        "14w33b",
+        "14w33c",
+        "14w34a",
+        "14w34b",
+        "14w34c",
+        "14w34d",
+        "1.8-pre1",
+        "1.8-pre2",
+        "1.8-pre3",
+        "1.8",
+        "1.8.1-pre1",
+        "1.8.1-pre2",
+        "1.8.1-pre3",
+        "1.8.1-pre4",
+        "1.8.1-pre5",
+        "1.8.1",
+        "1.8.2-pre1",
+        "1.8.2-pre2",
+        "1.8.2-pre3",
+        "1.8.2-pre4",
+        "1.8.2-pre5",
+        "1.8.2-pre6",
+        "1.8.2-pre7",
+        "1.8.2",
+        "1.8.3",
+        "15w14a",
+        "1.8.4",
+        "1.8.5",
+        "1.8.6",
+        "1.8.7",
+        "1.8.8",
+        "15w31a",
+        "15w31b",
+        "15w31c",
+        "15w32a",
+        "15w32b",
+        "15w32c",
+        "15w33a",
+        "15w33b",
+        "15w33c",
+        "15w34a",
+        "15w34b",
+        "15w34c",
+        "15w34d",
+        "15w35a",
+        "15w35b",
+        "15w35c",
+        "15w35d",
+        "15w35e",
+        "15w36a",
+        "15w36b",
+        "15w36c",
+        "15w36d",
+        "15w37a",
+        "15w38a",
+        "15w38b",
+        "15w39a",
+        "15w39b",
+        "15w39c",
+        "15w40a",
+        "15w40b",
+        "15w41a",
+        "15w41b",
+        "15w42a",
+        "15w43a",
+        "15w43b",
+        "15w43c",
+        "15w44a",
+        "15w44b",
+        "15w45a",
+        "15w46a",
+        "15w47a",
+        "15w47b",
+        "15w47c",
+        "15w49a",
+        "1.8.9",
+        "15w49b",
+        "15w50a",
+        "15w51a",
+        "15w51b",
+        "16w02a",
+        "16w03a",
+        "16w04a",
+        "16w05a",
+        "16w05b",
+        "16w06a",
+        "16w07a",
+        "16w07b",
+        "1.9-pre1",
+        "1.9-pre2",
+        "1.9-pre3",
+        "1.9-pre4",
+        "1.9",
+        "1.9.1-pre1",
+        "1.9.1-pre2",
+        "1.9.1-pre3",
+        "1.9.1",
+        "1.9.2",
+        "1.RV-Pre1",
+        "16w14a",
+        "16w15a",
+        "16w15b",
+        "1.9.3-pre1",
+        "1.9.3-pre2",
+        "1.9.3-pre3",
+        "1.9.3",
+        "1.9.4",
+        "16w20a",
+        "16w21a",
+        "16w21b",
+        "1.10-pre1",
+        "1.10-pre2",
+        "1.10",
+        "1.10.1",
+        "1.10.2",
+        "16w32a",
+        "16w32b",
+        "16w33a",
+        "16w35a",
+        "16w36a",
+        "16w38a",
+        "16w39a",
+        "16w39b",
+        "16w39c",
+        "16w40a",
+        "16w41a",
+        "16w42a",
+        "16w43a",
+        "16w44a",
+        "1.11-pre1",
+        "1.11",
+        "16w50a",
+        "1.11.1",
+        "1.11.2",
+        "17w06a",
+        "17w13a",
+        "17w13b",
+        "17w14a",
+        "17w15a",
+        "17w16a",
+        "17w16b",
+        "17w17a",
+        "17w17b",
+        "17w18a",
+        "17w18b",
+        "1.12-pre1",
+        "1.12-pre2",
+        "1.12-pre3",
+        "1.12-pre4",
+        "1.12-pre5",
+        "1.12-pre6",
+        "1.12-pre7",
+        "1.12",
+        "17w31a",
+        "1.12.1-pre1",
+        "1.12.1",
+        "1.12.2-pre1",
+        "1.12.2-pre2",
+        "1.12.2",
+        "1.14.4",
+        "19w34a",
+        "19w35a",
+        "19w36a",
+        "19w37a",
+        "19w38a",
+        "19w38b",
+        "19w39a",
+        "19w40a",
+        "19w41a",
+        "19w42a",
+        "19w44a",
+        "19w45a",
+        "19w45b",
+        "19w46a",
+        "19w46b",
+        "1.15-pre1",
+        "1.15-pre2",
+        "1.15-pre3",
+        "1.15-pre4",
+        "1.15-pre5",
+        "1.15-pre6",
+        "1.15-pre7",
+        "1.15",
+        "1.15.1-pre1",
+        "1.15.1",
+        "1.15.2-pre1",
+        "1.15.2-pre2",
+        "1.15.2",
+        "20w06a",
+        "20w07a",
+        "20w08a",
+        "20w09a",
+        "20w10a",
+        "20w11a",
+        "20w12a",
+        "20w13a",
+        "20w13b",
+        "20w14infinite",
+        "20w14a",
+        "20w15a",
+        "20w16a",
+        "20w17a",
+        "20w18a",
+        "20w19a",
+        "20w20a",
+        "20w20b",
+        "20w21a",
+        "20w22a",
+        "1.16-pre1",
+        "1.16-pre2",
+        "1.16-pre3",
+        "1.16-pre4",
+        "1.16-pre5",
+        "1.16-pre6",
+        "1.16-pre7",
+        "1.16-pre8",
+        "1.16-rc1",
+        "1.16",
+        "1.16.1",
+        "20w27a",
+        "20w28a",
+        "20w29a",
+        "20w30a",
+        "1.16.2-pre1",
+        "1.16.2-pre2",
+        "1.16.2-pre3",
+        "1.16.2-rc1",
+        "1.16.2-rc2",
+        "1.16.2",
+        "1.16.3-rc1",
+        "1.16.3",
+        "1.16.4-pre1",
+        "1.16.4-pre2",
+        "1.16.4-rc1",
+        "1.16.4",
+        "20w45a",
+        "20w46a",
+        "20w48a",
+        "20w49a",
+        "20w51a",
+        "1.16.5-rc1",
+        "1.16.5",
+        "21w03a",
+        "21w05a",
+        "21w05b",
+        "21w06a",
+        "21w07a",
+        "21w08a",
+        "21w08b",
+        "21w10a",
+        "21w11a",
+        "21w13a",
+        "21w14a",
+        "21w15a",
+        "21w16a",
+        "21w17a",
+        "21w18a",
+        "21w19a",
+        "21w20a",
+        "1.17-pre1",
+        "1.17-pre2",
+        "1.17-pre3",
+        "1.17-pre4",
+        "1.17-pre5",
+        "1.17-rc1",
+        "1.17-rc2",
+        "1.17",
+        "1.17.1-pre1",
+        "1.17.1-pre2",
+        "1.17.1-pre3",
+        "1.17.1-rc1",
+        "1.17.1-rc2",
+        "1.17.1",
+        "21w37a",
+        "21w38a",
+        "21w39a",
+        "21w40a",
+        "21w41a",
+        "21w42a",
+        "21w43a",
+        "21w44a",
+        "1.18-pre1",
+        "1.18-pre2",
+        "1.18-pre3",
+        "1.18-pre4",
+        "1.18-pre5",
+        "1.18-pre6",
+        "1.18-pre7",
+        "1.18-pre8",
+        "1.18-rc1",
+        "1.18-rc2",
+        "1.18-rc3",
+        "1.18-rc4",
+        "1.18",
+        "1.18.1-pre1",
+        "1.18.1-rc1",
+        "1.18.1-rc2",
+        "1.18.1-rc3",
+        "1.18.1",
+        "22w03a",
+        "22w05a",
+        "22w06a",
+        "22w07a",
+        "1.18.2-pre1",
+        "1.18.2-pre2",
+        "1.18.2-pre3",
+        "1.18.2-rc1",
+        "1.18.2",
+        "22w11a",
+        "22w12a",
+        "22w13a",
+        "22w13oneblockatatime",
+        "22w14a",
+        "22w15a",
+        "22w16a",
+        "22w16b",
+        "22w17a",
+        "22w18a",
+        "22w19a",
+        "1.19-pre1",
+        "1.19-pre2",
+        "1.19-pre3",
+        "1.19-pre4",
+        "1.19-pre5",
+        "1.19-rc1",
+        "1.19-rc2",
+        "1.19",
+        "22w24a",
+        "1.19.1-pre1",
+        "1.19.1-rc1",
+        "1.19.1-pre2",
+        "1.19.1-pre3",
+        "1.19.1-pre4",
+        "1.19.1-pre5",
+        "1.19.1-pre6",
+        "1.19.1-rc2",
+        "1.19.1-rc3",
+        "1.19.1",
+        "1.19.2-rc1",
+        "1.19.2-rc2",
+        "1.19.2",
+        "22w42a",
+        "22w43a",
+        "22w44a",
+        "22w45a",
+        "22w46a",
+        "1.19.3-pre1",
+        "1.19.3-pre2",
+        "1.19.3-pre3",
+        "1.19.3-rc1",
+        "1.19.3-rc2",
+        "1.19.3-rc3",
+        "1.19.3",
+        "23w03a",
+        "23w04a",
+        "23w05a",
+        "23w06a",
+        "23w07a",
+        "1.19.4-pre1",
+        "1.19.4-pre2",
+        "1.19.4-pre3",
+        "1.19.4-pre4",
+        "1.19.4-rc1",
+        "1.19.4-rc2",
+        "1.19.4-rc3",
+        "1.19.4",
+        "23w12a",
+        "23w13a",
+        "23w13a_or_b",
+        "23w14a",
+        "23w16a",
+        "23w17a",
+        "23w18a",
+        "1.20-pre1",
+        "1.20-pre2",
+        "1.20-pre3",
+        "1.20-pre4",
+        "1.20-pre5",
+        "1.20-pre6",
+        "1.20-pre7",
+        "1.20-rc1",
+        "1.20",
+        "1.20.1-rc1",
+        "1.20.1",
+        "23w31a",
+        "23w32a",
+        "23w33a",
+        "23w35a",
+        "1.20.2-pre1",
+        "1.20.2-pre2",
+        "1.20.2-pre3",
+        "1.20.2-pre4",
+        "1.20.2-rc1",
+        "1.20.2-rc2",
+        "1.20.2",
+        "23w40a",
+        "23w41a",
+        "23w42a",
+        "23w43a",
+        "23w43b",
+        "23w44a",
+        "23w45a",
+        "23w46a",
+        "1.20.3-pre1",
+        "1.20.3-pre2",
+        "1.20.3-pre3",
+        "1.20.3-pre4",
+        "1.20.3-rc1",
+        "1.20.3",
+        "1.20.4-rc1",
+        "1.20.4",
+        "23w51a",
+        "23w51b",
+        "24w03a",
+        "24w03b",
+        "24w04a",
+        "24w05a",
+        "24w05b",
+        "24w06a",
+        "24w07a",
+        "24w09a",
+        "24w10a",
+        "24w11a",
+        "24w12a",
+        "24w13a",
+        "24w14potato",
+        "24w14a",
+        "1.20.5-pre1",
+        "1.20.5-pre2",
+        "1.20.5-pre3",
+        "1.20.5-pre4",
+        "1.20.5-rc1",
+        "1.20.5-rc2",
+        "1.20.5-rc3",
+        "1.20.5",
+        "1.20.6-rc1",
+        "1.20.6",
+        "24w18a",
+        "24w19a",
+        "24w19b",
+        "24w20a",
+        "24w21a",
+        "24w21b",
+        "1.21-pre1",
+        "1.21-pre2",
+        "1.21-pre3",
+        "1.21-pre4",
+        "1.21-rc1",
+        "1.21",
+        "1.21.1-rc1",
+        "1.21.1",
+        "24w33a",
+        "24w34a",
+        "24w35a",
+        "24w36a",
+        "24w37a",
+        "24w38a",
+        "24w39a",
+        "24w40a",
+        "1.21.2-pre1",
+        "1.21.2-pre2",
+        "1.21.2-pre3",
+        "1.21.2-pre4",
+        "1.21.2-pre5",
+        "1.21.2-rc1",
+        "1.21.2-rc2",
+        "1.21.2",
+        "1.21.3",
+        "24w44a",
+        "24w45a",
+        "24w46a",
+        "1.21.4-pre1",
+        "1.21.4-pre2",
+        "1.21.4-pre3",
+        "1.21.4-rc1",
+        "1.21.4-rc2",
+        "1.21.4-rc3",
+        "1.21.4",
+        "25w02a",
+        "25w03a",
+        "25w04a",
+        "25w05a",
+        "25w06a",
+        "25w07a",
+        "25w08a",
+        "25w09a",
+        "25w09b",
+        "25w10a",
+        "1.21.5-pre1",
+        "1.21.5-pre2",
+        "1.21.5-pre3",
+        "1.21.5-rc1",
+        "1.21.5-rc2",
+        "1.21.5",
+        "25w14craftmine",
+        "25w15a",
+        "25w16a",
+        "25w17a",
+        "25w18a",
+        "25w19a",
+        "25w20a",
+        "25w21a",
+        "1.21.6-pre1",
+        "1.21.6-pre2",
+        "1.21.6-pre3",
+        "1.21.6-pre4",
+        "1.21.6-rc1",
+        "1.21.6",
+        "1.21.7-rc1",
+        "1.21.7-rc2",
+        "1.21.7",
+        "1.21.8-rc1",
+        "1.21.8",
+        "25w31a",
+        "25w32a",
+        "25w33a",
+        "25w34a",
+        "25w34b",
+        "25w35a",
+        "25w36a",
+        "25w36b",
+        "25w37a",
+        "1.21.9-pre1",
+        "1.21.9-pre2",
+        "1.21.9-pre3",
+        "1.21.9-pre4",
+        "1.21.9-rc1",
+        "1.21.9",
+        "1.21.10-rc1",
+        "1.21.10",
+        "25w41a",
+        "25w42a",
+        "25w43a",
+        "25w44a",
+        "25w45a",
+        "25w46a",
+        "1.21.11-pre1",
+        "1.21.11-pre2",
+        "1.21.11-pre3",
+        "1.21.11-pre4",
+        "1.21.11-pre5",
+        "1.21.11-rc1",
+        "1.21.11-rc2",
+        "1.21.11-rc3",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge"
+      ],
+      "filename": "zume-1.2.2.jar",
+      "url": "https://cdn.modrinth.com/data/o6qsdrrQ/versions/Rh2ImJ86/zume-1.2.2.jar",
+      "size": 99445,
+      "hashes": {
+        "sha512": "9803fcf070327ed40316f8323ad7de83977a4ff8dc928c892836c8f49a9be3da6e9282aa85bf8bcf3467c4339f3d16dad5ec92d1a2e9bc9fc10bddba1ffc1190",
+        "sha1": "cbd353ee0e2a35d122a758b9cbb26b2f54145f3f"
+      },
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "sk9rgfiA",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ],
+      "client": "required",
+      "server": "unsupported",
+      "license": "OSL-3.0",
+      "source": "https://modrinth.com/mod/zume"
+    },
+    {
+      "project": "skyblock-biome-islands",
+      "project_id": "LQG2KlS9",
+      "version_id": "DUvhFoWC",
+      "version": "1.0.3+mod",
+      "minecraft": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "filename": "skyblock-biome-islands-1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/LQG2KlS9/versions/DUvhFoWC/skyblock-biome-islands-1.0.3.jar",
+      "size": 350530,
+      "hashes": {
+        "sha512": "e3ceb714090bffeab49e8de689cf81b2024f0f9ce8b5d4616ebe5c353c9a69ffc797c7dee178752538e17c65c083b0fed852416613ccce39fd330d296beaf49e",
+        "sha1": "6997a7274dac86b3b80aec6aab91991d0b82a0b8"
+      },
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "bbtyQ1Po",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ],
+      "client": "optional",
+      "server": "required",
+      "license": "MIT",
+      "source": "https://modrinth.com/datapack/skyblock-biome-islands"
+    },
+    {
+      "project": "robs-floating-islands",
+      "project_id": "ZliMkJKA",
+      "version_id": "qchytHxX",
+      "version": "1.0.0",
+      "minecraft": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "filename": "1.21.1-robs_floating_islands-v1.jar",
+      "url": "https://cdn.modrinth.com/data/ZliMkJKA/versions/qchytHxX/1.21.1-robs_floating_islands-v1.jar",
+      "size": 93489,
+      "hashes": {
+        "sha1": "729d6223b0cf53a36d0f02a5f8d3613f4d55b64e",
+        "sha512": "1efea0b9c69019167afa122ede8dc73bda70f20d1ebaee9ee7ae663f601882d1a967332366a838155a16ddcfdc21c827828b34ff59f4b521fc0b52c34b534f14"
+      },
+      "dependencies": [],
+      "client": "optional",
+      "server": "optional",
+      "license": "LicenseRef-All-Rights-Reserved",
+      "source": "https://modrinth.com/mod/robs-floating-islands"
+    },
+    {
+      "project": "farmers-delight",
+      "project_id": "R2OftAxM",
+      "version_id": "XTVZDOol",
+      "version": "1.21.1-1.3.4",
+      "minecraft": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "filename": "FarmersDelight-1.21.1-1.3.4.jar",
+      "url": "https://cdn.modrinth.com/data/R2OftAxM/versions/XTVZDOol/FarmersDelight-1.21.1-1.3.4.jar",
+      "size": 3160490,
+      "hashes": {
+        "sha1": "27675ddfcb8cc37e6ea1ab6c15051c7949d94657",
+        "sha512": "1f6f8796469f747cff36f477b4f589a3d69613882399f9ee7f86db36c7bca9aa4828731f43db15dc6c7f5a4c1bbe3d4092a232e8cef010b09cec0581848fda90"
+      },
+      "dependencies": [],
+      "client": "required",
+      "server": "required",
+      "license": "MIT",
+      "source": "https://modrinth.com/mod/farmers-delight"
+    },
+    {
+      "project": "kaleidoscope-cookery",
+      "project_id": "v17FatAc",
+      "version_id": "g8w0b2ly",
+      "version": "1.6.0-neoforge+mc1.21.1",
+      "minecraft": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "filename": "kaleidoscopecookery-1.6.0-neoforge+mc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/v17FatAc/versions/g8w0b2ly/kaleidoscopecookery-1.6.0-neoforge%2Bmc1.21.1.jar",
+      "size": 3496661,
+      "hashes": {
+        "sha512": "b562f73395f70d39fb26d89ca62a5b5cebe7d66b11e8930217f0daf03fdcea617629728f55e4c8ced690406204c44462a8a568e5c15f05f5940274904ce0b77f",
+        "sha1": "9093e830c91a8f2e19eca7dda78713f0bbc21327"
+      },
+      "dependencies": [],
+      "client": "required",
+      "server": "required",
+      "license": "CC-BY-NC-SA-4.0",
+      "source": "https://modrinth.com/mod/kaleidoscope-cookery"
+    },
+    {
+      "project": "ex-deorum",
+      "project_id": "WP0FLyzv",
+      "version_id": "NOZ1Zbbu",
+      "version": "3.12",
+      "minecraft": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "filename": "exdeorum-3.12.jar",
+      "url": "https://cdn.modrinth.com/data/WP0FLyzv/versions/NOZ1Zbbu/exdeorum-3.12.jar",
+      "size": 2123067,
+      "hashes": {
+        "sha512": "e0397e2f3734a54f036cc12d1bd3dfd6afbd13449bed33735e52d576ad9bed719b2056103722044f3eedf8eaa89a60303c11a1e741c92f24a404acace803d350",
+        "sha1": "4e1c95351ac00995eaacf02994a26c0f9ad9acd3"
+      },
+      "dependencies": [],
+      "client": "required",
+      "server": "required",
+      "license": "GPL-3.0-only",
+      "source": "https://modrinth.com/mod/ex-deorum"
+    },
+    {
+      "project": "embers-floating-islands",
+      "project_id": "Ii9sVXDo",
+      "version_id": "NX2vCZkz",
+      "version": "1.5.3-1.21.1-neoforge",
+      "minecraft": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "filename": "floating_islands-1.5.3-1.21.1-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/Ii9sVXDo/versions/NX2vCZkz/floating_islands-1.5.3-1.21.1-neoforge.jar",
+      "size": 406349,
+      "hashes": {
+        "sha512": "385d646f705242fb17b772be0ff49555141349f01099dc3b5c4580aeb8a664518b2d4187853df35378ba1e824fb26941ab6fdf3403f6af2136bd62f53f2e96af",
+        "sha1": "bfb9afd9bf774fe4274e3bf880063837e35c8fb8"
+      },
+      "dependencies": [],
+      "client": "unsupported",
+      "server": "required",
+      "license": "LicenseRef-All-Rights-Reserved",
+      "source": "https://modrinth.com/mod/embers-floating-islands"
+    },
+    {
+      "project": "mss-moogs-soaring-structures",
+      "project_id": "RJCLIx7k",
+      "version_id": "O20bIWkj",
+      "version": "2.2.0",
+      "minecraft": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8",
+        "1.21.9",
+        "1.21.10",
+        "1.21.11",
+        "26.1",
+        "26.1.1",
+        "26.1.2",
+        "26.2",
+        "26.3"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge"
+      ],
+      "filename": "MoogsSoaringStructures-universal-1.21-2.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/RJCLIx7k/versions/O20bIWkj/MoogsSoaringStructures-universal-1.21-2.2.0.jar",
+      "size": 5022443,
+      "hashes": {
+        "sha512": "1460cbb932e8f39c00bc7f980322696107c965094e00b9a05aa6b4ce6bc9babff5c3444b2135b8a6e7b88285dabbe3426cc4780fd1e3a8b64cc1b2cd8adb9dca",
+        "sha1": "1284c673b46a50b0557c2c018f677323484665f6"
+      },
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "1oUDhxuy",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ],
+      "client": "unsupported",
+      "server": "required",
+      "license": "GPL-3.0-only",
+      "source": "https://modrinth.com/mod/mss-moogs-soaring-structures"
+    },
+    {
+      "project": "moogs-structure-lib",
+      "project_id": "1oUDhxuy",
+      "version_id": "wcg4mE4e",
+      "version": "3.4.2-neoforge-1.21.1",
+      "minecraft": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "filename": "MoogsStructureLib-neoforge-1.21.1-3.4.2.jar",
+      "url": "https://cdn.modrinth.com/data/1oUDhxuy/versions/wcg4mE4e/MoogsStructureLib-neoforge-1.21.1-3.4.2.jar",
+      "size": 1094979,
+      "hashes": {
+        "sha512": "378d5da579e65e8c37d81aee510302f99b3097f0c6a4245f3621478f741fac3b55a3715227d9408153a66c98624f8fcb5f93e98027212e0f0a82b768315d0651",
+        "sha1": "c379b8d5dc1a4b1e8987da1052d6b4de81354d72"
+      },
+      "dependencies": [],
+      "client": "unsupported",
+      "server": "required",
+      "license": "LGPL-3.0-only",
+      "source": "https://modrinth.com/mod/moogs-structure-lib"
+    },
+    {
+      "project": "simple-planes",
+      "project_id": "74piZbBF",
+      "version_id": "tGW6Zlf9",
+      "version": "5.3.9",
+      "minecraft": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "filename": "simpleplanes-1.21.1-5.3.9.jar",
+      "url": "https://cdn.modrinth.com/data/74piZbBF/versions/tGW6Zlf9/simpleplanes-1.21.1-5.3.9.jar",
+      "size": 904148,
+      "hashes": {
+        "sha1": "51af40cfe94d4deee382f4504dcc4a4d2226063d",
+        "sha512": "5b76f6a571efb051f02a9e7a738a1530e17222fd511e8961273bd815f07ee671d0303aa20587fdc3183df3b8e059cb6b8c127c8ce167d2b6917cbef8e0b4524c"
+      },
+      "dependencies": [],
+      "client": "required",
+      "server": "required",
+      "license": "LGPL-3.0-only",
+      "source": "https://modrinth.com/mod/simple-planes"
+    },
+    {
+      "project": "mouse-tweaks",
+      "project_id": "aC3cM3Vq",
+      "version_id": "9I21YYxf",
+      "version": "1.21-2.26.1-neoforge",
+      "minecraft": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "filename": "MouseTweaks-neoforge-mc1.21-2.26.1.jar",
+      "url": "https://cdn.modrinth.com/data/aC3cM3Vq/versions/9I21YYxf/MouseTweaks-neoforge-mc1.21-2.26.1.jar",
+      "size": 73938,
+      "hashes": {
+        "sha1": "6dae57f4f50f7808d2ed9a18f6cd1c0d4640c6bc",
+        "sha512": "f95c0cc881211ee0442434976775e07aae40b4a2ba4e3a85455bc57ca9d3c991e239cd98374a8abd442dc9c378dcd9001e2caa1bf69991d424b5652dd7f3483b"
+      },
+      "dependencies": [],
+      "client": "required",
+      "server": "unsupported",
+      "license": "BSD-3-Clause",
+      "source": "https://modrinth.com/mod/mouse-tweaks"
+    },
+    {
+      "project": "3dskinlayers",
+      "project_id": "zV5r3pPn",
+      "version_id": "GJTnQGfe",
+      "version": "1.11.4",
+      "minecraft": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "filename": "skinlayers3d-neoforge-1.11.4-mc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/zV5r3pPn/versions/GJTnQGfe/skinlayers3d-neoforge-1.11.4-mc1.21.1.jar",
+      "size": 1905514,
+      "hashes": {
+        "sha512": "541d39edf2781676d9777e3c4a18f179f0b0c04f3ea10d279154996b165e02ae5431100f74f95125ba6df2d7f78aacb9353a02e0c2a436b878e7393788cb0a6b",
+        "sha1": "d4864fac231ff3d360e08a82f06553c3f76de8a6"
+      },
+      "dependencies": [],
+      "client": "required",
+      "server": "unsupported",
+      "license": "LicenseRef-tr7zw-Protective-License",
+      "source": "https://modrinth.com/mod/3dskinlayers"
+    },
+    {
+      "project": "ambientsounds",
+      "project_id": "fM515JnW",
+      "version_id": "WGalCQAo",
+      "version": "6.3.11",
+      "minecraft": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "filename": "AmbientSounds_NEOFORGE_v6.3.11_mc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/fM515JnW/versions/WGalCQAo/AmbientSounds_NEOFORGE_v6.3.11_mc1.21.1.jar",
+      "size": 84815086,
+      "hashes": {
+        "sha512": "1e615137f1e4d4e2cd0f366560922304f6d96ce7a73e9e55bae2572a1f03916efccc633b249026826471162d498a2eecba10b712f20ecfd540cb818915d8e227",
+        "sha1": "9762244f9c116c85a6af3469da686650ed455bb1"
+      },
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "OsZiaDHq",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ],
+      "client": "required",
+      "server": "unsupported",
+      "license": "LGPL-3.0-only",
+      "source": "https://modrinth.com/mod/ambientsounds"
+    },
+    {
+      "project": "creativecore",
+      "project_id": "OsZiaDHq",
+      "version_id": "vRMtFt35",
+      "version": "2.13.51",
+      "minecraft": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "filename": "CreativeCore_NEOFORGE_v2.13.51_mc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/OsZiaDHq/versions/vRMtFt35/CreativeCore_NEOFORGE_v2.13.51_mc1.21.1.jar",
+      "size": 1236490,
+      "hashes": {
+        "sha512": "864301fa1229511203fc291e9b683db5af3cb4aa4faed0ef1eb54112491b3c97f9b5006b42d41fb2c169f7fc93ad13459f5079c6ffc73dc4b145ee61b7687997",
+        "sha1": "eb2242b3d4442ad4017ba0624a7f9588e778b157"
+      },
+      "dependencies": [],
+      "client": "required",
+      "server": "optional",
+      "license": "LGPL-3.0-only",
+      "source": "https://modrinth.com/mod/creativecore"
+    },
+    {
+      "project": "seamless-sleep",
+      "project_id": "IyHq05yB",
+      "version_id": "Lw02ZJke",
+      "version": "neoforge-1.21+1.21.1-2.5.3",
+      "minecraft": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "filename": "seamlesssleep-neoforge-1.21-2.5.3.jar",
+      "url": "https://cdn.modrinth.com/data/IyHq05yB/versions/Lw02ZJke/seamlesssleep-neoforge-1.21-2.5.3.jar",
+      "size": 148048,
+      "hashes": {
+        "sha1": "dd0ef36c9288e7e91edcb50e12968b5322db8e23",
+        "sha512": "5e0f9704dd5ca4dc4cb8bbab7b05bea934f9cfb7a9538950b505e38f8364c43a4e33bb3923d50f68ffb4b8339fcb7d82fae53f5a12ccf8118782d7db1d08057a"
+      },
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "1eAoo2KR",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ],
+      "client": "required",
+      "server": "required",
+      "license": "LicenseRef-All-Rights-Reserved",
+      "source": "https://modrinth.com/mod/seamless-sleep"
+    },
+    {
+      "project": "yacl",
+      "project_id": "1eAoo2KR",
+      "version_id": "7TVdVtxF",
+      "version": "3.8.2+1.21.1-neoforge",
+      "minecraft": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "filename": "yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/1eAoo2KR/versions/7TVdVtxF/yet_another_config_lib_v3-3.8.2%2B1.21.1-neoforge.jar",
+      "size": 1118651,
+      "hashes": {
+        "sha1": "fe270c9f6e0a8142cf316944087f5109cef08bbb",
+        "sha512": "583de19b927ce8050c2b7d5e60b75accc69e325e5aac85c27994c82a9dec2e4e078343fa1d4c3a10d4bd7e0e524e0b3b246a18cf03db01e363a1e6f865adcf48"
+      },
+      "dependencies": [],
+      "client": "optional",
+      "server": "optional",
+      "license": "LGPL-3.0-or-later",
+      "source": "https://modrinth.com/mod/yacl"
+    },
+    {
+      "project": "subtle-effects",
+      "project_id": "4q8UOK1d",
+      "version_id": "ReUDmzrA",
+      "version": "1.15.1",
+      "minecraft": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "filename": "SubtleEffects-neoforge-1.21.1-1.15.1.jar",
+      "url": "https://cdn.modrinth.com/data/4q8UOK1d/versions/ReUDmzrA/SubtleEffects-neoforge-1.21.1-1.15.1.jar",
+      "size": 3445062,
+      "hashes": {
+        "sha1": "e8ab4df7ac4bf3d88fa389a1cf97ad2449c3206d",
+        "sha512": "4bc61c3cb3df0d774f623eb9177c0ec3d74617c044d3a80a5b564094d2b14c9ebc98b79893a01bb5461d92141787bb814dd869101a293a840dade027bd0a56a1"
+      },
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "hYykXjDp",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ],
+      "client": "required",
+      "server": "optional",
+      "license": "LicenseRef-All-Rights-Reserved",
+      "source": "https://modrinth.com/mod/subtle-effects"
+    },
+    {
+      "project": "fzzy-config",
+      "project_id": "hYykXjDp",
+      "version_id": "jRuOkBAG",
+      "version": "0.7.7+fix1+1.21+neoforge",
+      "minecraft": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "filename": "fzzy_config-0.7.7+fix1+1.21+neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/hYykXjDp/versions/jRuOkBAG/fzzy_config-0.7.7%2Bfix1%2B1.21%2Bneoforge.jar",
+      "size": 2392720,
+      "hashes": {
+        "sha1": "aa04a2ddbce2f50b21d667d2f3e589f9e043e472",
+        "sha512": "7ea074ac2bee3471a213ed6e55d3beafded16631ea517ecbc6711324f6af82b697c9d391aaadcefff67eda13d5dcc2bfb5011373c73a7015761060b6d89cf15c"
+      },
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "ordsPcFz",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ],
+      "client": "required",
+      "server": "required",
+      "license": "LicenseRef-TDL-M",
+      "source": "https://modrinth.com/mod/fzzy-config"
+    },
+    {
+      "project": "kotlin-for-forge",
+      "project_id": "ordsPcFz",
+      "version_id": "uhJhCT7X",
+      "version": "5.12.0",
+      "minecraft": [
+        "1.20.6",
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "filename": "kotlinforforge-5.12.0-all.jar",
+      "url": "https://cdn.modrinth.com/data/ordsPcFz/versions/uhJhCT7X/kotlinforforge-5.12.0-all.jar",
+      "size": 7279264,
+      "hashes": {
+        "sha512": "b8c3942f4d33179edf3f102f3d870b99dd436f8b8236dbbd31aa51b888162c692cfd88927295f24dc8b4375232f4c6c17360c5d6c4823f93cbcd7cf4bdc8bd14",
+        "sha1": "d10d062caf1aad9aec82d7852f2fee1781735c1f"
+      },
+      "dependencies": [],
+      "client": "optional",
+      "server": "optional",
+      "license": "LGPL-2.1-only",
+      "source": "https://modrinth.com/mod/kotlin-for-forge"
+    }
+  ],
+  "shaders": [
+    {
+      "project": "complementary-reimagined",
+      "project_id": "HVnmMxH1",
+      "version_id": "Bqen1mJX",
+      "version": "r5.9.3",
+      "minecraft": [
+        "1.7.10",
+        "1.8",
+        "1.8.1",
+        "1.8.2",
+        "1.8.3",
+        "1.8.4",
+        "1.8.5",
+        "1.8.6",
+        "1.8.7",
+        "1.8.8",
+        "1.8.9",
+        "1.9",
+        "1.9.1",
+        "1.9.2",
+        "1.9.3",
+        "1.9.4",
+        "1.10",
+        "1.10.1",
+        "1.10.2",
+        "1.11",
+        "1.11.1",
+        "1.11.2",
+        "1.12",
+        "1.12.1",
+        "1.12.2",
+        "1.13",
+        "1.13.1",
+        "1.13.2",
+        "1.14",
+        "1.14.1",
+        "1.14.2",
+        "1.14.3",
+        "1.14.4",
+        "1.15",
+        "1.15.1",
+        "1.15.2",
+        "1.16",
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5",
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6",
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8",
+        "1.21.9",
+        "1.21.10",
+        "1.21.11",
+        "26.1",
+        "26.1.1",
+        "26.1.2",
+        "26.2",
+        "26.3"
+      ],
+      "loaders": [
+        "iris",
+        "optifine"
+      ],
+      "filename": "ComplementaryReimagined_r5.9.3.zip",
+      "url": "https://cdn.modrinth.com/data/HVnmMxH1/versions/Bqen1mJX/ComplementaryReimagined_r5.9.3.zip",
+      "size": 553397,
+      "hashes": {
+        "sha1": "838139b54cddb56b2e83cd260d8efd960ac536d6",
+        "sha512": "45304b1d7862afdb2177b7e6226fc9c6737911d17a4ad46cc9c519ca4deb935f05072cd337cd8b19a15bb8062b57b54eceec7bdee4cd572d94858e2946d37d85"
+      },
+      "dependencies": [],
+      "client": "required",
+      "server": "unsupported",
+      "license": "LicenseRef-Custom",
+      "source": "https://modrinth.com/shader/complementary-reimagined"
+    }
+  ]
+}

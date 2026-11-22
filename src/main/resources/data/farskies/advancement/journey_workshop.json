@@ -1,0 +1,33 @@
+{
+  "parent": "farskies:journey",
+  "display": {
+    "icon": {
+      "id": "create:water_wheel"
+    },
+    "title": {
+      "text": "Let it work for you"
+    },
+    "description": {
+      "text": "Build a water wheel. Hold W over Create parts for Ponder."
+    },
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "supplies": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "create:water_wheel"
+            ],
+            "count": {
+              "min": 1
+            }
+          }
+        ]
+      }
+    }
+  }
+}

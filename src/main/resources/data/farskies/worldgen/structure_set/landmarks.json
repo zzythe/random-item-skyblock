@@ -1,0 +1,35 @@
+{
+  "structures": [
+    {
+      "structure": "farskies:landmark_camp_island",
+      "weight": 1
+    },
+    {
+      "structure": "farskies:landmark_tower_island",
+      "weight": 1
+    },
+    {
+      "structure": "farskies:landmark_pillager_camp",
+      "weight": 1
+    },
+    {
+      "structure": "farskies:landmark_cherry_island_with_shrine",
+      "weight": 1
+    },
+    {
+      "structure": "farskies:landmark_cemetery_island",
+      "weight": 1
+    },
+    {
+      "structure": "farskies:landmark_steampunk_island",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 13,
+    "separation": 6,
+    "salt": 62104829,
+    "spread_type": "linear"
+  }
+}

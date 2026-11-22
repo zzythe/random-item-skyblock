@@ -1,0 +1,12 @@
+{
+  "type": "farskies:island",
+  "biomes": [
+    "farskies:open_sky"
+  ],
+  "step": "top_layer_modification",
+  "spawn_overrides": {},
+  "pool": "skyvoid_biome_islands:jungle",
+  "island_biome": "minecraft:jungle",
+  "loot": "theme/jungle",
+  "terrain_adaptation": "none"
+}

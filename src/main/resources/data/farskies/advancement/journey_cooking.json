@@ -1,0 +1,34 @@
+{
+  "parent": "farskies:journey_farming",
+  "display": {
+    "icon": {
+      "id": "kaleidoscope_cookery:egg_fried_rice"
+    },
+    "title": {
+      "text": "Dinner is ready"
+    },
+    "description": {
+      "text": "Grow ingredients and cook. Check uses in EMI for your crops."
+    },
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "supplies": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kaleidoscope_cookery:egg_fried_rice",
+              "farmersdelight:vegetable_soup"
+            ],
+            "count": {
+              "min": 1
+            }
+          }
+        ]
+      }
+    }
+  }
+}

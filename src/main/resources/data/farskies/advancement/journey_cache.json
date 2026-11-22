@@ -1,0 +1,21 @@
+{
+  "parent": "farskies:journey",
+  "display": {
+    "icon": {
+      "id": "minecraft:barrel"
+    },
+    "title": {
+      "text": "First to the spoils"
+    },
+    "description": {
+      "text": "Claim a contested sky cache."
+    },
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "supply": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "parent": "farskies:journey_generator",
+  "display": {
+    "icon": {
+      "id": "exdeorum:oak_sieve"
+    },
+    "title": {
+      "text": "From gravel to metal"
+    },
+    "description": {
+      "text": "Hammer cobble into gravel, then use a sieve and mesh. EMI shows the recipes."
+    },
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "supplies": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "exdeorum:oak_sieve"
+            ],
+            "count": {
+              "min": 1
+            }
+          }
+        ]
+      }
+    }
+  }
+}

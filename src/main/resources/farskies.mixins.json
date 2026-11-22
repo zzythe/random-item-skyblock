@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "dev.farskies.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "MarketVillagerMixin",
+    "CreateMarketMixin",
+    "MarketContraptionMixin",
+    "MarketWorldEditMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "GuiHudAccessor"
+  ]
+}

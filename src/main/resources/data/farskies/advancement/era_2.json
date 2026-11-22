@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "create:cogwheel"
+    },
+    "title": {
+      "text": "Tier 3"
+    },
+    "description": {
+      "text": "Tier 3 items can now arrive in your random drops."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "supply": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "farskies:era_1"
+}

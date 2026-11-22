@@ -1,0 +1,259 @@
+
+(dry run assumes project random-item-skyblock-core does not exist yet)
+
+[dry-run #1] POST https://api.modrinth.com/v2/project
+  headers: {"User-Agent": "zzythe/random-item-skyblock-publish/0.6.1 (modrinth.com/user/zzythe)", "Content-Type": "multipart/form-data; boundary=----riseeaa944c56cc4273a46acacac7d2f699"}
+  body: part "data" (application/json):
+  {
+    "slug": "random-item-skyblock-core",
+    "title": "Random Item Skyblock Core",
+    "description": "The game rules behind the Random Item Skyblock modpack: two skyblock teams, a random item every 30 seconds, shared tiers, a neutral market, sky caches and optional raids. Made for the modpack; it needs the pack's mods.",
+    "body": "**The game rules behind the [Random Item Skyblock](https://modrinth.com/modpack/random-item-skyblock-teams) modpack: two teams, a random item every 30 seconds, shared tiers, a neutral market and optional raids.**\n\n> **Made for the Random Item Skyblock modpack.** This mod requires about a dozen of the pack's mods (listed below), and it builds its world around them. The easiest way to play is to install the [modpack](https://modrinth.com/modpack/random-item-skyblock-teams), which sets everything up for you.\n\n![Random Item Skyblock](gallery:random-drop)\n\n## What it adds\n\n- **A void world type, \"Random Item Skyblock\".** Red and Blue each start on a bare 3x3 grass pad, with a protected market island between them. Exploration islands, landmark islands and Moog's Soaring Structures islands are generated from the world seed.\n- **Teams.** New players join the smaller team. Membership is saved by player UUID. Friendly fire is on.\n- **Random supplies.** Every active player gets one random item every 30 seconds from the full item list. Items are grouped into raw resources (45%), functional items (20%), equipment and food (20%), unusual finds (10%) and decorative variants (5%). Stacks are sized to be useful. A full inventory holds the roll for later, and offline or idle time earns nothing.\n- **Six shared tiers** unlocked by the server's active play time. Higher tiers make better items more likely. A HUD line shows your next drop and the drops left until the next tier.\n- **The market.** A villager shop using the normal trading screen, a public kitchen, a workshop and a community chest. Its original buildings are protected from players, explosions, Create contraptions and pistons. `/market` and `/market home` teleport you between your base and the market.\n- **Sky caches.** Every 45 minutes of active play, while both teams are active, a sealed loot cache can appear on an island in the middle. The first team to open it after two minutes claims it.\n- **Opening truce and raids.** A 30-minute truce, counted in active play time, blocks player damage and enemy-base griefing. After that, bases can be raided. Raiders who die near the enemy base are worn out for a few minutes (slower mining there, and no fire, lava, TNT or Chance Cubes there).\n- **32 extra Chance Cubes outcomes**, added alongside the normal ones. Island supply caches, advancements with build tips, EMI integration, and pick-up notifications for every drop.\n\n## Requirements\n\nMinecraft 1.21.1, NeoForge 21.1.265 or newer, Java 21. Required on both the client and the server:\n\nCreate, Create Sifter, Open Parties and Claims, Chance Cubes, Pick Up Notifier, Skyblock Biome Islands, Rob's Floating Islands, Ember's Floating Islands, Moog's Soaring Structures, Moog's Structure Lib, Farmer's Delight, Kaleidoscope Cookery, Simple Planes, Ex Deorum.\n\nThe exact versions are listed as dependencies of each version of this mod.\n\n## Settings and commands\n\n- `config/farskies.json`: drop interval, tier thresholds, truce length (`truceMinutes`, `0` turns the truce off) and more.\n- `/teamswitch <player> Red|Blue`: move a player to another team (operators).\n- `/market`, `/market home`: travel to the market and back.\n- `/skies event start`, `/skies event cancel`: test sky caches (operators).\n\nInternal IDs use `farskies` so that older worlds stay compatible.\n\n## License\n\nMIT. Made by zzythe.\n",
+    "project_type": "mod",
+    "categories": [
+      "game-mechanics",
+      "minigame",
+      "worldgen"
+    ],
+    "additional_categories": [
+      "economy",
+      "adventure"
+    ],
+    "client_side": "required",
+    "server_side": "required",
+    "license_id": "MIT",
+    "license_url": null,
+    "source_url": null,
+    "issues_url": null,
+    "wiki_url": null,
+    "discord_url": null,
+    "donation_urls": [],
+    "initial_versions": [],
+    "is_draft": true,
+    "requested_status": "approved"
+  }
+  part "icon" file icon.png (image/png, 6288 bytes, sha1=c0c4072b32de61261dcb4f42f473e7bde39b4eaa)
+
+[dry-run #2] POST https://api.modrinth.com/v2/version
+  headers: {"User-Agent": "zzythe/random-item-skyblock-publish/0.6.1 (modrinth.com/user/zzythe)", "Content-Type": "multipart/form-data; boundary=----risa0c604085abe44218540c3d32780534f"}
+  body: part "data" (application/json):
+  {
+    "game_versions": [
+      "1.21.1"
+    ],
+    "loaders": [
+      "neoforge"
+    ],
+    "version_type": "release",
+    "changelog": "First public release on Modrinth.\n\n- The pack's own mod is now published separately as **Random Item Skyblock Core** and downloaded from Modrinth like every other mod, instead of being bundled inside the pack.\n- The server pack no longer needs Python. Run `START-SERVER.cmd` on Windows or `sh start.sh` on Linux and macOS. On first start it asks you to accept the Minecraft EULA, downloads and checks NeoForge and the server mods, and gets a portable Java 21 if Java 21 isn't installed.\n- New pack and mod icon.\n\nGameplay, mods and settings are unchanged from 0.6.0. Worlds from 0.6.0 (and from 0.4.0 onwards) carry over.\n",
+    "featured": true,
+    "status": "listed",
+    "version_number": "0.6.1",
+    "name": "Random Item Skyblock Core 0.6.1",
+    "environment": "client_and_server",
+    "dependencies": [
+      {
+        "project_id": "LNytGWDc",
+        "version_id": "UjX6dr61",
+        "dependency_type": "required"
+      },
+      {
+        "project_id": "r018adCw",
+        "version_id": "Z5bTlA6P",
+        "dependency_type": "required"
+      },
+      {
+        "project_id": "gF3BGWvG",
+        "version_id": "yWmXD7GW",
+        "dependency_type": "required"
+      },
+      {
+        "project_id": "ur82ldLX",
+        "version_id": "1KizaIYB",
+        "dependency_type": "required"
+      },
+      {
+        "project_id": "ZX66K16c",
+        "version_id": "5NZounJc",
+        "dependency_type": "required"
+      },
+      {
+        "project_id": "LQG2KlS9",
+        "version_id": "DUvhFoWC",
+        "dependency_type": "required"
+      },
+      {
+        "project_id": "ZliMkJKA",
+        "version_id": "qchytHxX",
+        "dependency_type": "required"
+      },
+      {
+        "project_id": "R2OftAxM",
+        "version_id": "XTVZDOol",
+        "dependency_type": "required"
+      },
+      {
+        "project_id": "v17FatAc",
+        "version_id": "g8w0b2ly",
+        "dependency_type": "required"
+      },
+      {
+        "project_id": "Ii9sVXDo",
+        "version_id": "NX2vCZkz",
+        "dependency_type": "required"
+      },
+      {
+        "project_id": "RJCLIx7k",
+        "version_id": "O20bIWkj",
+        "dependency_type": "required"
+      },
+      {
+        "project_id": "1oUDhxuy",
+        "version_id": "wcg4mE4e",
+        "dependency_type": "required"
+      },
+      {
+        "project_id": "74piZbBF",
+        "version_id": "tGW6Zlf9",
+        "dependency_type": "required"
+      },
+      {
+        "project_id": "WP0FLyzv",
+        "version_id": "NOZ1Zbbu",
+        "dependency_type": "required"
+      }
+    ],
+    "project_id": "DRYMODID",
+    "file_parts": [
+      "file"
+    ],
+    "primary_file": "file"
+  }
+  part "file" file random-item-skyblock-0.6.1.jar (application/java-archive, 225387 bytes, sha1=cdb957ef53f590749a077baf702de92e53d7c323)
+Core mod file: https://cdn.modrinth.com/data/DRYMODID/versions/DRYMODVER/random-item-skyblock-0.6.1.jar
+DRY-RUN-Random-Item-Skyblock-0.6.1.mrpack: format 1, 41 files, deps {'minecraft': '1.21.1', 'neoforge': '21.1.265'}, 17 override files
+Final mrpack: publish\dist-final\DRY-RUN-Random-Item-Skyblock-0.6.1.mrpack (31341 bytes, sha512 6b0b8c09a7eaf77c...)
+
+(dry run assumes project random-item-skyblock-teams does not exist yet)
+
+[dry-run #3] POST https://api.modrinth.com/v2/project
+  headers: {"User-Agent": "zzythe/random-item-skyblock-publish/0.6.1 (modrinth.com/user/zzythe)", "Content-Type": "multipart/form-data; boundary=----ris4cd3a15e5ea2417297eb14b8186a5a44"}
+  body: part "data" (application/json):
+  {
+    "slug": "random-item-skyblock-teams",
+    "title": "Random Item Skyblock: Teams",
+    "description": "Two skyblock teams start on bare 3x3 pads and get a random item every 30 seconds. Build with Create or Ex Deorum, trade at a neutral market, explore floating islands, and raid the other team if you want to.",
+    "body": "**Two teams. Two bare 3x3 pads. A random item every 30 seconds. Build, trade, explore, and raid if you want to.**\n\n![Random Item Skyblock](gallery:plane)\n\n## What makes it different\n\n- **You start with almost nothing.** Each team gets a bare 3x3 grass pad floating in the void, plus a sapling, a water bucket and a lava bucket.\n- **A random item every 30 seconds.** Every active player gets their own roll. Building blocks come in useful stacks, and tools and machines come one at a time. If your inventory is full, the item waits for a later cycle, so you never get a flood of items. Offline and idle time earn nothing.\n- **Shared tiers.** The whole server unlocks better items together through six tiers, based on active play time (tier 2 after 45 minutes, tier 6 after 12 hours). The HUD shows your next drop and how many drops are left until the next tier.\n- **Two ways to make resources.** Use Ex Deorum hammers, sieves, barrels and crucibles by hand, or automate with Create and Create Sifter. EMI shows every recipe, and Create's Ponder explains the machines.\n- **Islands worth visiting.** Small biome islands come with themed supply caches. Rarer landmark islands have camps, towers, a cemetery and a large cherry shrine. Moog's Soaring Structures adds 34 more island types. Simple Planes (from tier 3) gets you to the far ones.\n- **A neutral market.** A protected island between the bases with a villager shop, a public kitchen, a workshop and a community chest. Sell crops and cooked meals for emeralds, and buy supplies or Chance Cubes.\n- **PvP is optional.** A 30-minute opening truce protects both homes. After it ends, bases can be raided and you drop your inventory when you die. A raider who dies near the enemy base is worn out for a few minutes: mining there is slower, and fire, lava, TNT and Chance Cubes can't be used there. You can turn the truce off in the config.\n\n![The market](gallery:market)\n\n## How to play (with friends)\n\n1. Install the pack in the [Modrinth App](https://modrinth.com/app) (or any launcher that imports `.mrpack` files). Everyone needs the same pack version.\n2. **Create a new world.** The **Random Item Skyblock** world type is selected for you. Keep **Generate Structures** on, because it creates the islands.\n3. Play together:\n   - **Same house or same network:** one player opens the world to LAN.\n   - **Over the internet:** run a dedicated server (see below). Friends who join from outside your network need port forwarding, or you can rent a Minecraft host.\n\nNew players join the smaller team. Team membership is saved, so you stay on the same team after logging out. Friendly fire is on. An operator can move a player with `/teamswitch <player> Red` or `/teamswitch <player> Blue`.\n\nOpen the **Advancements** screen for tips on what to build next. They are optional milestones, not quests, and no recipes are locked.\n\nYou can play alone. Sky caches and raids need players on both teams.\n\n## Hosting a server\n\nDownload the **server pack** for your version: [Random-Item-Skyblock-server.zip](https://github.com/zzythe/random-item-skyblock/releases/download/v0.6.1/Random-Item-Skyblock-0.6.1-server.zip). You don't need to install Python or Java first.\n\n- **Windows:** extract the zip into an empty folder and double-click `START-SERVER.cmd`.\n- **Linux / macOS:** extract it and run `sh start.sh`.\n\nOn the first start you're asked to accept the [Minecraft EULA](https://aka.ms/MinecraftEULA). After that, the starter downloads NeoForge and the server mods from their official sources and checks each file's hash. If Java 21 isn't installed, it also downloads a portable Eclipse Temurin 21 into the server folder. Later starts skip the downloads. Type `stop` to save and shut down.\n\nFor a public server, turn on the whitelist, because every extra account collects its own random items.\n\n## Sky caches\n\nEvery 45 minutes of active play, while both teams are active, a sealed cache can appear on an island in the contested middle. Chat announces the coordinates. After two minutes it opens, and the first team to open or break it claims the loot. You don't have to take part.\n\n![A sky cache](gallery:sky-cache)\n\n## FAQ\n\n**Which Minecraft version and loader?** Minecraft Java 1.21.1 with NeoForge 21.1.265, on Java 21.\n\n**Can I update my world to a new pack version?** Yes. Worlds from 0.4.0 and later keep their builds, inventories and progress.\n\n**Do I have to use shaders?** No. Iris and Complementary Reimagined are included and turned on by default. Turn them off in Video Settings > Shader Packs if your PC struggles.\n\n**What do I get for being online but AFK?** Nothing. Your personal drops pause after three idle minutes, and the shared tier clock only counts time while someone is active.\n\n**Can I change the rules?** Yes, in `config/farskies.json`. For example, set `truceMinutes` to `0` to remove the truce.\n\n**Are Chance Cubes safe?** Not always! Some cube outcomes are extreme. Open them away from the market and away from your base.\n\n**Where are the commands?** `/market` takes you to the market when you're near your own base or bed, on the ground and not in combat. `/market home` takes you back to your team.\n\n## Included\n\nGameplay: Create, Create Sifter, Ex Deorum, Farmer's Delight, Kaleidoscope Cookery, Chance Cubes, Simple Planes, Open Parties and Claims, Skyblock Biome Islands, Ember's Floating Islands, Rob's Floating Islands, Moog's Soaring Structures.\n\nQuality of life: EMI (with JEI recipe support), Jade, AppleSkin, Pick Up Notifier, Mouse Tweaks, Zume, 3D Skin Layers, AmbientSounds, Seamless Sleep, Subtle Effects.\n\nPerformance and visuals: Sodium, Lithium, FerriteCore, ModernFix, ImmediatelyFast, Entity Culling, Dynamic FPS, Iris, Complementary Reimagined.\n\nThe pack's own rules (teams, drops, tiers, market, sky caches, truce and raids) are in [Random Item Skyblock Core](https://modrinth.com/mod/random-item-skyblock-core).\n\n## Credits\n\nEvery third-party mod and the shader pack are downloaded from their own Modrinth pages and belong to their authors. The full list with licenses is in `MOD-CREDITS.md` inside the pack. Many thanks to all of them.\n\nRandom Item Skyblock is made by zzythe. The pack's own content and the core mod are MIT licensed.\n",
+    "project_type": "modpack",
+    "categories": [
+      "multiplayer",
+      "adventure",
+      "technology"
+    ],
+    "additional_categories": [
+      "combat"
+    ],
+    "client_side": "required",
+    "server_side": "optional",
+    "license_id": "MIT",
+    "license_url": null,
+    "source_url": null,
+    "issues_url": null,
+    "wiki_url": null,
+    "discord_url": null,
+    "donation_urls": [],
+    "initial_versions": [],
+    "is_draft": true,
+    "requested_status": "approved"
+  }
+  part "icon" file icon.png (image/png, 6288 bytes, sha1=c0c4072b32de61261dcb4f42f473e7bde39b4eaa)
+
+[dry-run #4] POST https://api.modrinth.com/v2/version
+  headers: {"User-Agent": "zzythe/random-item-skyblock-publish/0.6.1 (modrinth.com/user/zzythe)", "Content-Type": "multipart/form-data; boundary=----ris5d13bdaf6519474b829634ac7568d2bc"}
+  body: part "data" (application/json):
+  {
+    "game_versions": [
+      "1.21.1"
+    ],
+    "loaders": [
+      "neoforge"
+    ],
+    "version_type": "release",
+    "changelog": "First public release on Modrinth.\n\n- The pack's own mod is now published separately as **Random Item Skyblock Core** and downloaded from Modrinth like every other mod, instead of being bundled inside the pack.\n- The server pack no longer needs Python. Run `START-SERVER.cmd` on Windows or `sh start.sh` on Linux and macOS. On first start it asks you to accept the Minecraft EULA, downloads and checks NeoForge and the server mods, and gets a portable Java 21 if Java 21 isn't installed.\n- New pack and mod icon.\n\nGameplay, mods and settings are unchanged from 0.6.0. Worlds from 0.6.0 (and from 0.4.0 onwards) carry over.\n",
+    "featured": true,
+    "status": "listed",
+    "version_number": "0.6.1",
+    "name": "Random Item Skyblock: Teams 0.6.1",
+    "environment": "client_and_server",
+    "dependencies": [],
+    "project_id": "DRYPACKID",
+    "file_parts": [
+      "file"
+    ],
+    "primary_file": "file"
+  }
+  part "file" file DRY-RUN-Random-Item-Skyblock-0.6.1.mrpack (application/x-modrinth-modpack+zip, 31341 bytes, sha1=6eb2e526665195246039e5a4ce4dc6776f488a5c)
+Server zip: not uploaded to Modrinth (Content Rules 5.7 keep additional files for designated purposes). Attach ../dist/Random-Item-Skyblock-0.6.1-server.zip to a GitHub release and pass --server-zip-url.
+
+[dry-run #5] POST https://api.modrinth.com/v2/project/DRYMODID/gallery?ext=png&featured=false&title=Your+starting+pad&description=Each+team+starts+on+a+bare+3x3+grass+pad+above+the+void+with+a+sapling%2C+a+water+bucket+and+a+lava+bucket.+A+cobblestone+generator+comes+first.&ordering=1
+  headers: {"User-Agent": "zzythe/random-item-skyblock-publish/0.6.1 (modrinth.com/user/zzythe)", "Content-Type": "image/png"}
+  body: <3789034 bytes image/png sha1=39f4963febd54c19b3a00857447220c2e6d9d828>
+
+[dry-run #6] POST https://api.modrinth.com/v2/project/DRYMODID/gallery?ext=png&featured=false&title=A+random+drop+every+30+seconds&description=Every+active+player+gets+a+random+item+every+thirty+seconds.+The+corner+list+shows+recent+pickups%2C+and+the+HUD+counts+down+to+the+next+drop+and+the+next+shared+tier.&ordering=2
+  headers: {"User-Agent": "zzythe/random-item-skyblock-publish/0.6.1 (modrinth.com/user/zzythe)", "Content-Type": "image/png"}
+  body: <3652751 bytes image/png sha1=040c151356a16801035bffe7515ae65507c0c2ee>
+
+[dry-run #7] POST https://api.modrinth.com/v2/project/DRYMODID/gallery?ext=png&featured=false&title=The+neutral+market&description=The+market+island+between+the+teams+is+a+protected+safe+zone+with+a+villager+shop%2C+a+public+kitchen%2C+a+workshop+and+a+community+chest.&ordering=4
+  headers: {"User-Agent": "zzythe/random-item-skyblock-publish/0.6.1 (modrinth.com/user/zzythe)", "Content-Type": "image/png"}
+  body: <4269180 bytes image/png sha1=a8f09dd77a2e8c6f7df45418e40da1484cb94969>
+
+[dry-run #8] POST https://api.modrinth.com/v2/project/DRYMODID/gallery?ext=png&featured=false&title=Sky+caches&description=Chat+announces+a+sealed+sky+cache+on+an+island+in+the+middle.+After+two+minutes%2C+the+first+team+to+open+it+claims+the+loot.&ordering=7
+  headers: {"User-Agent": "zzythe/random-item-skyblock-publish/0.6.1 (modrinth.com/user/zzythe)", "Content-Type": "image/png"}
+  body: <3943095 bytes image/png sha1=a50cb8c1dbf857b2c6eb3bb24857ab088d104d33>
+
+[dry-run #9] PATCH https://api.modrinth.com/v2/project/DRYMODID
+  headers: {"User-Agent": "zzythe/random-item-skyblock-publish/0.6.1 (modrinth.com/user/zzythe)", "Content-Type": "application/json"}
+  body: {
+    "body": "**The game rules behind the [Random Item Skyblock](https://modrinth.com/modpack/random-item-skyblock-teams) modpack: two teams, a random item every 30 seconds, shared tiers, a neutral market and optional raids.**\n\n> **Made for the Random Item Skyblock modpack.** This mod requires about a dozen of the pack's mods (listed below), and it builds its world around them. The easiest way to play is to install the [modpack](https://modrinth.com/modpack/random-item-skyblock-teams), which sets everything up for you.\n\n![Random Item Skyblock](gallery:random-drop)\n\n## What it adds\n\n- **A void world type, \"Random Item Skyblock\".** Red and Blue each start on a bare 3x3 grass pad, with a protected market island between them. Exploration islands, landmark islands and Moog's Soaring Structures islands are generated from the world seed.\n- **Teams.** New players join the smaller team. Membership is saved by player UUID. Friendly fire is on.\n- **Random supplies.** Every active player gets one random item every 30 seconds from the full item list. Items are grouped into raw resources (45%), functional items (20%), equipment and food (20%), unusual finds (10%) and decorative variants (5%). Stacks are sized to be useful. A full inventory holds the roll for later, and offline or idle time earns nothing.\n- **Six shared tiers** unlocked by the server's active play time. Higher tiers make better items more likely. A HUD line shows your next drop and the drops left until the next tier.\n- **The market.** A villager shop using the normal trading screen, a public kitchen, a workshop and a community chest. Its original buildings are protected from players, explosions, Create contraptions and pistons. `/market` and `/market home` teleport you between your base and the market.\n- **Sky caches.** Every 45 minutes of active play, while both teams are active, a sealed loot cache can appear on an island in the middle. The first team to open it after two minutes claims it.\n- **Opening truce and raids.** A 30-minute truce, counted in active play time, blocks player damage and enemy-base griefing. After that, bases can be raided. Raiders who die near the enemy base are worn out for a few minutes (slower mining there, and no fire, lava, TNT or Chance Cubes there).\n- **32 extra Chance Cubes outcomes**, added alongside the normal ones. Island supply caches, advancements with build tips, EMI integration, and pick-up notifications for every drop.\n\n## Requirements\n\nMinecraft 1.21.1, NeoForge 21.1.265 or newer, Java 21. Required on both the client and the server:\n\nCreate, Create Sifter, Open Parties and Claims, Chance Cubes, Pick Up Notifier, Skyblock Biome Islands, Rob's Floating Islands, Ember's Floating Islands, Moog's Soaring Structures, Moog's Structure Lib, Farmer's Delight, Kaleidoscope Cookery, Simple Planes, Ex Deorum.\n\nThe exact versions are listed as dependencies of each version of this mod.\n\n## Settings and commands\n\n- `config/farskies.json`: drop interval, tier thresholds, truce length (`truceMinutes`, `0` turns the truce off) and more.\n- `/teamswitch <player> Red|Blue`: move a player to another team (operators).\n- `/market`, `/market home`: travel to the market and back.\n- `/skies event start`, `/skies event cancel`: test sky caches (operators).\n\nInternal IDs use `farskies` so that older worlds stay compatible.\n\n## License\n\nMIT. Made by zzythe.\n"
+  }
+
+[dry-run #10] POST https://api.modrinth.com/v2/project/DRYPACKID/gallery?ext=png&featured=true&title=Fly+between+islands&description=Simple+Planes+gives+fuel-powered+travel+to+distant+islands%2C+and+basic+planes+enter+the+random+pool+at+tier+3.+Here+one+passes+the+cherry+shrine+landmark.&ordering=0
+  headers: {"User-Agent": "zzythe/random-item-skyblock-publish/0.6.1 (modrinth.com/user/zzythe)", "Content-Type": "image/png"}
+  body: <4212516 bytes image/png sha1=4b75ec85376be85ebd98231100ca6e1c680c32aa>
+
+[dry-run #11] POST https://api.modrinth.com/v2/project/DRYPACKID/gallery?ext=png&featured=false&title=Your+starting+pad&description=Each+team+starts+on+a+bare+3x3+grass+pad+above+the+void+with+a+sapling%2C+a+water+bucket+and+a+lava+bucket.+A+cobblestone+generator+comes+first.&ordering=1
+  headers: {"User-Agent": "zzythe/random-item-skyblock-publish/0.6.1 (modrinth.com/user/zzythe)", "Content-Type": "image/png"}
+  body: <3789034 bytes image/png sha1=39f4963febd54c19b3a00857447220c2e6d9d828>
+
+[dry-run #12] POST https://api.modrinth.com/v2/project/DRYPACKID/gallery?ext=png&featured=false&title=A+random+drop+every+30+seconds&description=Every+active+player+gets+a+random+item+every+thirty+seconds.+The+corner+list+shows+recent+pickups%2C+and+the+HUD+counts+down+to+the+next+drop+and+the+next+shared+tier.&ordering=2
+  headers: {"User-Agent": "zzythe/random-item-skyblock-publish/0.6.1 (modrinth.com/user/zzythe)", "Content-Type": "image/png"}
+  body: <3652751 bytes image/png sha1=040c151356a16801035bffe7515ae65507c0c2ee>
+
+[dry-run #13] POST https://api.modrinth.com/v2/project/DRYPACKID/gallery?ext=png&featured=false&title=Automate+with+Create&description=Create+is+the+automation+route.+On+this+base+a+water+wheel+turns+shafts+and+gearboxes+that+drive+a+mechanical+press+and+a+millstone.&ordering=3
+  headers: {"User-Agent": "zzythe/random-item-skyblock-publish/0.6.1 (modrinth.com/user/zzythe)", "Content-Type": "image/png"}
+  body: <4263745 bytes image/png sha1=30913fe5798f29d691290890f6dbdea9eb9df341>
+
+[dry-run #14] POST https://api.modrinth.com/v2/project/DRYPACKID/gallery?ext=png&featured=false&title=The+neutral+market&description=The+market+island+between+the+teams+is+a+protected+safe+zone+with+a+villager+shop%2C+a+public+kitchen%2C+a+workshop+and+a+community+chest.&ordering=4
+  headers: {"User-Agent": "zzythe/random-item-skyblock-publish/0.6.1 (modrinth.com/user/zzythe)", "Content-Type": "image/png"}
+  body: <4269180 bytes image/png sha1=a8f09dd77a2e8c6f7df45418e40da1484cb94969>
+
+[dry-run #15] POST https://api.modrinth.com/v2/project/DRYPACKID/gallery?ext=png&featured=false&title=Chance+Cubes&description=Chance+Cubes+keep+their+native+rewards%2C+like+this+flock+of+witches+riding+bats.+The+market+sells+cubes+from+the+start%2C+and+they+join+random+drops+at+tier+3.&ordering=5
+  headers: {"User-Agent": "zzythe/random-item-skyblock-publish/0.6.1 (modrinth.com/user/zzythe)", "Content-Type": "image/png"}
+  body: <4435120 bytes image/png sha1=5402788631c189ca891b3ca3b73fb034e8ca2b86>
+
+[dry-run #16] POST https://api.modrinth.com/v2/project/DRYPACKID/gallery?ext=png&featured=false&title=Landmark+islands&description=Rarer+landmark+islands+from+Ember%27s+Floating+Islands%2C+like+this+steampunk+workshop%2C+are+bigger+builds+with+their+own+loot+and+hazards.&ordering=6
+  headers: {"User-Agent": "zzythe/random-item-skyblock-publish/0.6.1 (modrinth.com/user/zzythe)", "Content-Type": "image/png"}
+  body: <3954729 bytes image/png sha1=1aaeb3dac3b6b37d69806cade54a81409b10fe30>
+
+[dry-run #17] POST https://api.modrinth.com/v2/project/DRYPACKID/gallery?ext=png&featured=false&title=Sky+caches&description=Chat+announces+a+sealed+sky+cache+on+an+island+in+the+middle.+After+two+minutes%2C+the+first+team+to+open+it+claims+the+loot.&ordering=7
+  headers: {"User-Agent": "zzythe/random-item-skyblock-publish/0.6.1 (modrinth.com/user/zzythe)", "Content-Type": "image/png"}
+  body: <3943095 bytes image/png sha1=a50cb8c1dbf857b2c6eb3bb24857ab088d104d33>
+
+[dry-run #18] PATCH https://api.modrinth.com/v2/project/DRYPACKID
+  headers: {"User-Agent": "zzythe/random-item-skyblock-publish/0.6.1 (modrinth.com/user/zzythe)", "Content-Type": "application/json"}
+  body: {
+    "body": "**Two teams. Two bare 3x3 pads. A random item every 30 seconds. Build, trade, explore, and raid if you want to.**\n\n![Random Item Skyblock](gallery:plane)\n\n## What makes it different\n\n- **You start with almost nothing.** Each team gets a bare 3x3 grass pad floating in the void, plus a sapling, a water bucket and a lava bucket.\n- **A random item every 30 seconds.** Every active player gets their own roll. Building blocks come in useful stacks, and tools and machines come one at a time. If your inventory is full, the item waits for a later cycle, so you never get a flood of items. Offline and idle time earn nothing.\n- **Shared tiers.** The whole server unlocks better items together through six tiers, based on active play time (tier 2 after 45 minutes, tier 6 after 12 hours). The HUD shows your next drop and how many drops are left until the next tier.\n- **Two ways to make resources.** Use Ex Deorum hammers, sieves, barrels and crucibles by hand, or automate with Create and Create Sifter. EMI shows every recipe, and Create's Ponder explains the machines.\n- **Islands worth visiting.** Small biome islands come with themed supply caches. Rarer landmark islands have camps, towers, a cemetery and a large cherry shrine. Moog's Soaring Structures adds 34 more island types. Simple Planes (from tier 3) gets you to the far ones.\n- **A neutral market.** A protected island between the bases with a villager shop, a public kitchen, a workshop and a community chest. Sell crops and cooked meals for emeralds, and buy supplies or Chance Cubes.\n- **PvP is optional.** A 30-minute opening truce protects both homes. After it ends, bases can be raided and you drop your inventory when you die. A raider who dies near the enemy base is worn out for a few minutes: mining there is slower, and fire, lava, TNT and Chance Cubes can't be used there. You can turn the truce off in the config.\n\n![The market](gallery:market)\n\n## How to play (with friends)\n\n1. Install the pack in the [Modrinth App](https://modrinth.com/app) (or any launcher that imports `.mrpack` files). Everyone needs the same pack version.\n2. **Create a new world.** The **Random Item Skyblock** world type is selected for you. Keep **Generate Structures** on, because it creates the islands.\n3. Play together:\n   - **Same house or same network:** one player opens the world to LAN.\n   - **Over the internet:** run a dedicated server (see below). Friends who join from outside your network need port forwarding, or you can rent a Minecraft host.\n\nNew players join the smaller team. Team membership is saved, so you stay on the same team after logging out. Friendly fire is on. An operator can move a player with `/teamswitch <player> Red` or `/teamswitch <player> Blue`.\n\nOpen the **Advancements** screen for tips on what to build next. They are optional milestones, not quests, and no recipes are locked.\n\nYou can play alone. Sky caches and raids need players on both teams.\n\n## Hosting a server\n\nDownload the **server pack** for your version: [Random-Item-Skyblock-server.zip](https://github.com/zzythe/random-item-skyblock/releases/download/v0.6.1/Random-Item-Skyblock-0.6.1-server.zip). You don't need to install Python or Java first.\n\n- **Windows:** extract the zip into an empty folder and double-click `START-SERVER.cmd`.\n- **Linux / macOS:** extract it and run `sh start.sh`.\n\nOn the first start you're asked to accept the [Minecraft EULA](https://aka.ms/MinecraftEULA). After that, the starter downloads NeoForge and the server mods from their official sources and checks each file's hash. If Java 21 isn't installed, it also downloads a portable Eclipse Temurin 21 into the server folder. Later starts skip the downloads. Type `stop` to save and shut down.\n\nFor a public server, turn on the whitelist, because every extra account collects its own random items.\n\n## Sky caches\n\nEvery 45 minutes of active play, while both teams are active, a sealed cache can appear on an island in the contested middle. Chat announces the coordinates. After two minutes it opens, and the first team to open or break it claims the loot. You don't have to take part.\n\n![A sky cache](gallery:sky-cache)\n\n## FAQ\n\n**Which Minecraft version and loader?** Minecraft Java 1.21.1 with NeoForge 21.1.265, on Java 21.\n\n**Can I update my world to a new pack version?** Yes. Worlds from 0.4.0 and later keep their builds, inventories and progress.\n\n**Do I have to use shaders?** No. Iris and Complementary Reimagined are included and turned on by default. Turn them off in Video Settings > Shader Packs if your PC struggles.\n\n**What do I get for being online but AFK?** Nothing. Your personal drops pause after three idle minutes, and the shared tier clock only counts time while someone is active.\n\n**Can I change the rules?** Yes, in `config/farskies.json`. For example, set `truceMinutes` to `0` to remove the truce.\n\n**Are Chance Cubes safe?** Not always! Some cube outcomes are extreme. Open them away from the market and away from your base.\n\n**Where are the commands?** `/market` takes you to the market when you're near your own base or bed, on the ground and not in combat. `/market home` takes you back to your team.\n\n## Included\n\nGameplay: Create, Create Sifter, Ex Deorum, Farmer's Delight, Kaleidoscope Cookery, Chance Cubes, Simple Planes, Open Parties and Claims, Skyblock Biome Islands, Ember's Floating Islands, Rob's Floating Islands, Moog's Soaring Structures.\n\nQuality of life: EMI (with JEI recipe support), Jade, AppleSkin, Pick Up Notifier, Mouse Tweaks, Zume, 3D Skin Layers, AmbientSounds, Seamless Sleep, Subtle Effects.\n\nPerformance and visuals: Sodium, Lithium, FerriteCore, ModernFix, ImmediatelyFast, Entity Culling, Dynamic FPS, Iris, Complementary Reimagined.\n\nThe pack's own rules (teams, drops, tiers, market, sky caches, truce and raids) are in [Random Item Skyblock Core](https://modrinth.com/mod/random-item-skyblock-core).\n\n## Credits\n\nEvery third-party mod and the shader pack are downloaded from their own Modrinth pages and belong to their authors. The full list with licenses is in `MOD-CREDITS.md` inside the pack. Many thanks to all of them.\n\nRandom Item Skyblock is made by zzythe. The pack's own content and the core mod are MIT licensed.\n"
+  }
+
+Both projects stay drafts. Check them on modrinth.com, then re-run with --submit.
+18 API request(s) printed.

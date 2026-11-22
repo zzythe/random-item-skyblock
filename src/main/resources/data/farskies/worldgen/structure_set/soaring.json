@@ -1,0 +1,151 @@
+{
+  "structures": [
+    {
+      "structure": "farskies:soaring_large_tower",
+      "weight": 3
+    },
+    {
+      "structure": "farskies:soaring_white_house",
+      "weight": 3
+    },
+    {
+      "structure": "farskies:soaring_diorite_house",
+      "weight": 3
+    },
+    {
+      "structure": "farskies:soaring_jungle",
+      "weight": 3
+    },
+    {
+      "structure": "farskies:soaring_volcano",
+      "weight": 3
+    },
+    {
+      "structure": "farskies:soaring_red_sand",
+      "weight": 3
+    },
+    {
+      "structure": "farskies:soaring_muddy_water_hole",
+      "weight": 2
+    },
+    {
+      "structure": "farskies:soaring_castle_tower",
+      "weight": 3
+    },
+    {
+      "structure": "farskies:soaring_castle_ruin",
+      "weight": 3
+    },
+    {
+      "structure": "farskies:soaring_desert_pyramid",
+      "weight": 2
+    },
+    {
+      "structure": "farskies:soaring_leaf_hollow",
+      "weight": 3
+    },
+    {
+      "structure": "farskies:soaring_mangrove",
+      "weight": 2
+    },
+    {
+      "structure": "farskies:soaring_taiga",
+      "weight": 3
+    },
+    {
+      "structure": "farskies:soaring_spruce_huts",
+      "weight": 2
+    },
+    {
+      "structure": "farskies:soaring_calcite_house",
+      "weight": 2
+    },
+    {
+      "structure": "farskies:soaring_small_oak_house",
+      "weight": 2
+    },
+    {
+      "structure": "farskies:soaring_small_deepslate_house",
+      "weight": 2
+    },
+    {
+      "structure": "farskies:soaring_small_tower",
+      "weight": 2
+    },
+    {
+      "structure": "farskies:soaring_mushroom",
+      "weight": 2
+    },
+    {
+      "structure": "farskies:soaring_nether_portal",
+      "weight": 2
+    },
+    {
+      "structure": "farskies:soaring_palm_island",
+      "weight": 2
+    },
+    {
+      "structure": "farskies:soaring_birch_river",
+      "weight": 2
+    },
+    {
+      "structure": "farskies:soaring_cherry_river",
+      "weight": 2
+    },
+    {
+      "structure": "farskies:soaring_frozen_pond",
+      "weight": 2
+    },
+    {
+      "structure": "farskies:soaring_desert_well",
+      "weight": 2
+    },
+    {
+      "structure": "farskies:soaring_small_pond",
+      "weight": 1
+    },
+    {
+      "structure": "farskies:soaring_tree_1",
+      "weight": 1
+    },
+    {
+      "structure": "farskies:soaring_tree_2",
+      "weight": 1
+    },
+    {
+      "structure": "farskies:soaring_tree_3",
+      "weight": 1
+    },
+    {
+      "structure": "farskies:soaring_tree_4",
+      "weight": 1
+    },
+    {
+      "structure": "farskies:soaring_tree_5",
+      "weight": 1
+    },
+    {
+      "structure": "farskies:soaring_tree_6",
+      "weight": 1
+    },
+    {
+      "structure": "farskies:soaring_tree_7",
+      "weight": 1
+    },
+    {
+      "structure": "farskies:soaring_tree_8",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 10,
+    "separation": 4,
+    "salt": 40917733,
+    "spread_type": "linear",
+    "exclusion_zone": {
+      "other_set": "farskies:landmarks",
+      "chunk_count": 6
+    }
+  }
+}

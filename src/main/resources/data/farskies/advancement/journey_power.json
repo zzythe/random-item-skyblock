@@ -1,0 +1,24 @@
+{
+  "parent": "farskies:journey_workshop",
+  "display": {
+    "icon": {
+      "id": "create:water_wheel"
+    },
+    "title": {
+      "text": "Put water to work"
+    },
+    "description": {
+      "text": "Craft a water wheel. Flowing water turns it; shafts carry rotation. Hold W for Ponder."
+    },
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "crafted": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "create:crafting/kinetics/water_wheel"
+      }
+    }
+  }
+}

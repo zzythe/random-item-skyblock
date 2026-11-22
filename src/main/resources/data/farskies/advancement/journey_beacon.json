@@ -1,0 +1,26 @@
+{
+  "parent": "farskies:journey_diamond",
+  "display": {
+    "icon": {
+      "id": "minecraft:beacon"
+    },
+    "title": {
+      "text": "A place to call home"
+    },
+    "description": {
+      "text": "Build a working beacon for your island."
+    },
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "built": {
+      "trigger": "minecraft:construct_beacon",
+      "conditions": {
+        "level": {
+          "min": 1
+        }
+      }
+    }
+  }
+}

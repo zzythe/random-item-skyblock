@@ -1,0 +1,8 @@
+{
+  "values": [
+    "minecraft:flint_and_steel", "minecraft:fire_charge", "minecraft:lava_bucket",
+    "minecraft:tnt", "minecraft:tnt_minecart", "minecraft:end_crystal",
+    "chancecubes:chance_cube", "chancecubes:chance_icosahedron",
+    "chancecubes:giant_chance_cube", "chancecubes:compact_giant_chance_cube"
+  ]
+}

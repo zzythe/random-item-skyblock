@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "chancecubes:chance_cube"
+    },
+    {
+      "item": "minecraft:spider_eye"
+    },
+    {
+      "item": "minecraft:gunpowder"
+    }
+  ],
+  "result": {
+    "id": "chancecubes:chance_cube",
+    "count": 1,
+    "components": {
+      "chancecubes:chance": -75
+    }
+  }
+}

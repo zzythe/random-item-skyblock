@@ -1,0 +1,12 @@
+{
+  "type": "farskies:island",
+  "biomes": [
+    "farskies:open_sky"
+  ],
+  "step": "top_layer_modification",
+  "spawn_overrides": {},
+  "pool": "farskies:igloo",
+  "island_biome": "minecraft:snowy_plains",
+  "loot": "theme/ice_spikes",
+  "terrain_adaptation": "none"
+}

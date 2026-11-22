@@ -1,0 +1,33 @@
+{
+  "parent": "farskies:journey",
+  "display": {
+    "icon": {
+      "id": "kaleidoscope_cookery:straw_hat"
+    },
+    "title": {
+      "text": "Something growing"
+    },
+    "description": {
+      "text": "Wear the straw hat and break grass for crop seeds."
+    },
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "supplies": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kaleidoscope_cookery:straw_hat"
+            ],
+            "count": {
+              "min": 1
+            }
+          }
+        ]
+      }
+    }
+  }
+}

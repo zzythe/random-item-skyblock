@@ -1,0 +1,12 @@
+{
+  "type": "farskies:island",
+  "biomes": [
+    "farskies:open_sky"
+  ],
+  "step": "top_layer_modification",
+  "spawn_overrides": {},
+  "pool": "skyvoid_biome_islands:savanna",
+  "island_biome": "minecraft:savanna",
+  "loot": "theme/savanna",
+  "terrain_adaptation": "none"
+}

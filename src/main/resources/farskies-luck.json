@@ -1,0 +1,695 @@
+[
+  {
+    "id": "rescue_raft",
+    "title": "Emergency raft. Some assembly required.",
+    "grade": "good",
+    "kind": "items",
+    "minTier": 0,
+    "items": [
+      {
+        "item": "minecraft:oak_planks",
+        "count": 48
+      },
+      {
+        "item": "minecraft:water_bucket",
+        "count": 1
+      },
+      {
+        "item": "minecraft:bread",
+        "count": 8
+      }
+    ],
+    "entity": "",
+    "effect": "",
+    "count": 1,
+    "enchantment": "",
+    "enchantLevel": 1
+  },
+  {
+    "id": "seed_archive",
+    "title": "The seed archive survived the fall.",
+    "grade": "good",
+    "kind": "items",
+    "minTier": 0,
+    "items": [
+      {
+        "item": "minecraft:wheat_seeds",
+        "count": 12
+      },
+      {
+        "item": "minecraft:pumpkin_seeds",
+        "count": 8
+      },
+      {
+        "item": "minecraft:melon_seeds",
+        "count": 8
+      },
+      {
+        "item": "minecraft:carrot",
+        "count": 8
+      },
+      {
+        "item": "minecraft:sugar_cane",
+        "count": 8
+      }
+    ],
+    "entity": "",
+    "effect": "",
+    "count": 1,
+    "enchantment": "",
+    "enchantLevel": 1
+  },
+  {
+    "id": "geologist",
+    "title": "A geologist packed this one.",
+    "grade": "good",
+    "kind": "items",
+    "minTier": 0,
+    "items": [
+      {
+        "item": "minecraft:andesite",
+        "count": 32
+      },
+      {
+        "item": "minecraft:iron_ingot",
+        "count": 12
+      },
+      {
+        "item": "minecraft:copper_ingot",
+        "count": 16
+      }
+    ],
+    "entity": "",
+    "effect": "",
+    "count": 1,
+    "enchantment": "",
+    "enchantLevel": 1
+  },
+  {
+    "id": "windstep",
+    "title": "Windstep boots. Check the landing before jumping.",
+    "grade": "good",
+    "kind": "enchant",
+    "minTier": 0,
+    "items": [],
+    "entity": "minecraft:iron_boots",
+    "effect": "",
+    "count": 1,
+    "enchantment": "minecraft:feather_falling",
+    "enchantLevel": 4
+  },
+  {
+    "id": "lumberjack",
+    "title": "One very compact forest.",
+    "grade": "good",
+    "kind": "items",
+    "minTier": 0,
+    "items": [
+      {
+        "item": "minecraft:oak_log",
+        "count": 32
+      },
+      {
+        "item": "minecraft:spruce_log",
+        "count": 32
+      },
+      {
+        "item": "minecraft:bone_meal",
+        "count": 16
+      }
+    ],
+    "entity": "",
+    "effect": "",
+    "count": 1,
+    "enchantment": "",
+    "enchantLevel": 1
+  },
+  {
+    "id": "generator_rescue",
+    "title": "The generator repair kit.",
+    "grade": "good",
+    "kind": "items",
+    "minTier": 0,
+    "items": [
+      {
+        "item": "minecraft:lava_bucket",
+        "count": 1
+      },
+      {
+        "item": "minecraft:water_bucket",
+        "count": 2
+      },
+      {
+        "item": "minecraft:iron_ingot",
+        "count": 8
+      },
+      {
+        "item": "minecraft:dirt",
+        "count": 16
+      }
+    ],
+    "entity": "",
+    "effect": "",
+    "count": 1,
+    "enchantment": "",
+    "enchantLevel": 1
+  },
+  {
+    "id": "mechanic_drawer",
+    "title": "Someone left the workshop drawer unlocked.",
+    "grade": "good",
+    "kind": "items",
+    "minTier": 1,
+    "items": [
+      {
+        "item": "create:andesite_alloy",
+        "count": 12
+      },
+      {
+        "item": "create:shaft",
+        "count": 8
+      },
+      {
+        "item": "create:cogwheel",
+        "count": 8
+      },
+      {
+        "item": "create:water_wheel",
+        "count": 1
+      }
+    ],
+    "entity": "",
+    "effect": "",
+    "count": 1,
+    "enchantment": "",
+    "enchantLevel": 1
+  },
+  {
+    "id": "quiet_pick",
+    "title": "The quiet pick.",
+    "grade": "good",
+    "kind": "enchant",
+    "minTier": 1,
+    "items": [],
+    "entity": "minecraft:iron_pickaxe",
+    "effect": "",
+    "count": 1,
+    "enchantment": "minecraft:silk_touch",
+    "enchantLevel": 1
+  },
+  {
+    "id": "tinker",
+    "title": "Factory salvage. Build something unreasonable.",
+    "grade": "good",
+    "kind": "items",
+    "minTier": 2,
+    "items": [
+      {
+        "item": "create:brass_ingot",
+        "count": 16
+      },
+      {
+        "item": "create:electron_tube",
+        "count": 4
+      },
+      {
+        "item": "create:precision_mechanism",
+        "count": 2
+      }
+    ],
+    "entity": "",
+    "effect": "",
+    "count": 1,
+    "enchantment": "",
+    "enchantLevel": 1
+  },
+  {
+    "id": "prospector",
+    "title": "A prospector never came back for this.",
+    "grade": "good",
+    "kind": "items",
+    "minTier": 2,
+    "items": [
+      {
+        "item": "minecraft:diamond",
+        "count": 4
+      },
+      {
+        "item": "minecraft:gold_ingot",
+        "count": 16
+      },
+      {
+        "item": "minecraft:lapis_lazuli",
+        "count": 24
+      }
+    ],
+    "entity": "",
+    "effect": "",
+    "count": 1,
+    "enchantment": "",
+    "enchantLevel": 1
+  },
+  {
+    "id": "beekeeper",
+    "title": "The beekeeper has retired.",
+    "grade": "good",
+    "kind": "items",
+    "minTier": 1,
+    "items": [
+      {
+        "item": "minecraft:honey_block",
+        "count": 12
+      },
+      {
+        "item": "minecraft:honeycomb",
+        "count": 16
+      },
+      {
+        "item": "minecraft:flowering_azalea",
+        "count": 4
+      }
+    ],
+    "entity": "",
+    "effect": "",
+    "count": 1,
+    "enchantment": "",
+    "enchantLevel": 1
+  },
+  {
+    "id": "pocket_nether",
+    "title": "The Nether, neatly packed.",
+    "grade": "good",
+    "kind": "items",
+    "minTier": 3,
+    "items": [
+      {
+        "item": "minecraft:nether_wart",
+        "count": 8
+      },
+      {
+        "item": "minecraft:soul_sand",
+        "count": 16
+      },
+      {
+        "item": "minecraft:blaze_rod",
+        "count": 6
+      },
+      {
+        "item": "minecraft:glowstone",
+        "count": 16
+      }
+    ],
+    "entity": "",
+    "effect": "",
+    "count": 1,
+    "enchantment": "",
+    "enchantLevel": 1
+  },
+  {
+    "id": "horizon",
+    "title": "A message from beyond the horizon.",
+    "grade": "good",
+    "kind": "items",
+    "minTier": 4,
+    "items": [
+      {
+        "item": "minecraft:shulker_shell",
+        "count": 2
+      },
+      {
+        "item": "minecraft:end_stone",
+        "count": 32
+      },
+      {
+        "item": "minecraft:ender_pearl",
+        "count": 8
+      }
+    ],
+    "entity": "",
+    "effect": "",
+    "count": 1,
+    "enchantment": "",
+    "enchantLevel": 1
+  },
+  {
+    "id": "old_king",
+    "title": "The old king packed light.",
+    "grade": "good",
+    "kind": "items",
+    "minTier": 5,
+    "items": [
+      {
+        "item": "minecraft:netherite_scrap",
+        "count": 4
+      },
+      {
+        "item": "minecraft:totem_of_undying",
+        "count": 1
+      },
+      {
+        "item": "minecraft:experience_bottle",
+        "count": 24
+      }
+    ],
+    "entity": "",
+    "effect": "",
+    "count": 1,
+    "enchantment": "",
+    "enchantLevel": 1
+  },
+  {
+    "id": "bargain_gold",
+    "title": "Budget jackpot.",
+    "grade": "mid",
+    "kind": "items",
+    "minTier": 0,
+    "items": [
+      {
+        "item": "minecraft:gold_nugget",
+        "count": 9
+      },
+      {
+        "item": "minecraft:potato",
+        "count": 1
+      }
+    ],
+    "entity": "",
+    "effect": "",
+    "count": 1,
+    "enchantment": "",
+    "enchantLevel": 1
+  },
+  {
+    "id": "glass_rain",
+    "title": "Glass rain. Thankfully it arrived boxed.",
+    "grade": "mid",
+    "kind": "items",
+    "minTier": 0,
+    "items": [
+      {
+        "item": "minecraft:glass",
+        "count": 32
+      },
+      {
+        "item": "minecraft:light_blue_stained_glass",
+        "count": 16
+      }
+    ],
+    "entity": "",
+    "effect": "",
+    "count": 1,
+    "enchantment": "",
+    "enchantLevel": 1
+  },
+  {
+    "id": "potato",
+    "title": "It is a very important potato.",
+    "grade": "mid",
+    "kind": "items",
+    "minTier": 0,
+    "items": [
+      {
+        "item": "minecraft:potato",
+        "count": 1
+      }
+    ],
+    "entity": "",
+    "effect": "",
+    "count": 1,
+    "enchantment": "",
+    "enchantLevel": 1
+  },
+  {
+    "id": "chicken_council",
+    "title": "The chicken council has arrived.",
+    "grade": "mid",
+    "kind": "mob",
+    "minTier": 0,
+    "items": [
+      {
+        "item": "minecraft:egg",
+        "count": 6
+      }
+    ],
+    "entity": "minecraft:chicken",
+    "effect": "",
+    "count": 6,
+    "enchantment": "",
+    "enchantLevel": 1
+  },
+  {
+    "id": "clerical_error",
+    "title": "A clerical error in your favour. Mostly paper.",
+    "grade": "mid",
+    "kind": "items",
+    "minTier": 0,
+    "items": [
+      {
+        "item": "minecraft:paper",
+        "count": 32
+      },
+      {
+        "item": "minecraft:ink_sac",
+        "count": 4
+      }
+    ],
+    "entity": "",
+    "effect": "",
+    "count": 1,
+    "enchantment": "",
+    "enchantLevel": 1
+  },
+  {
+    "id": "desert_mail",
+    "title": "A postcard from the desert.",
+    "grade": "mid",
+    "kind": "items",
+    "minTier": 0,
+    "items": [
+      {
+        "item": "minecraft:sand",
+        "count": 24
+      },
+      {
+        "item": "minecraft:cactus",
+        "count": 3
+      },
+      {
+        "item": "minecraft:dead_bush",
+        "count": 2
+      }
+    ],
+    "entity": "",
+    "effect": "",
+    "count": 1,
+    "enchantment": "",
+    "enchantLevel": 1
+  },
+  {
+    "id": "gardener",
+    "title": "A gardener mistook this for a flowerpot.",
+    "grade": "mid",
+    "kind": "items",
+    "minTier": 0,
+    "items": [
+      {
+        "item": "minecraft:flower_pot",
+        "count": 6
+      },
+      {
+        "item": "minecraft:poppy",
+        "count": 6
+      },
+      {
+        "item": "minecraft:dandelion",
+        "count": 6
+      },
+      {
+        "item": "minecraft:moss_carpet",
+        "count": 12
+      }
+    ],
+    "entity": "",
+    "effect": "",
+    "count": 1,
+    "enchantment": "",
+    "enchantLevel": 1
+  },
+  {
+    "id": "wet_socks",
+    "title": "Wet socks, dry provisions.",
+    "grade": "mid",
+    "kind": "items",
+    "minTier": 0,
+    "items": [
+      {
+        "item": "minecraft:leather_boots",
+        "count": 1
+      },
+      {
+        "item": "minecraft:dried_kelp",
+        "count": 16
+      }
+    ],
+    "entity": "",
+    "effect": "",
+    "count": 1,
+    "enchantment": "",
+    "enchantLevel": 1
+  },
+  {
+    "id": "uninvited",
+    "title": "Uninvited guests.",
+    "grade": "bad",
+    "kind": "mob",
+    "minTier": 0,
+    "items": [],
+    "entity": "minecraft:zombie",
+    "effect": "",
+    "count": 4,
+    "enchantment": "",
+    "enchantLevel": 1
+  },
+  {
+    "id": "silverfish_union",
+    "title": "The silverfish union objects.",
+    "grade": "bad",
+    "kind": "mob",
+    "minTier": 0,
+    "items": [],
+    "entity": "minecraft:silverfish",
+    "effect": "",
+    "count": 6,
+    "enchantment": "",
+    "enchantLevel": 1
+  },
+  {
+    "id": "sapper",
+    "title": "That ticking is probably fine. Five seconds.",
+    "grade": "bad",
+    "kind": "tnt",
+    "minTier": 0,
+    "items": [],
+    "entity": "",
+    "effect": "",
+    "count": 1,
+    "enchantment": "",
+    "enchantLevel": 1
+  },
+  {
+    "id": "creeper_tax",
+    "title": "The creeper tax is due.",
+    "grade": "bad",
+    "kind": "mob",
+    "minTier": 0,
+    "items": [],
+    "entity": "minecraft:creeper",
+    "effect": "",
+    "count": 1,
+    "enchantment": "",
+    "enchantLevel": 1
+  },
+  {
+    "id": "borrowed_gravity",
+    "title": "Gravity has been temporarily reassigned.",
+    "grade": "bad",
+    "kind": "effect",
+    "minTier": 0,
+    "items": [
+      {
+        "item": "minecraft:feather",
+        "count": 1
+      }
+    ],
+    "entity": "",
+    "effect": "minecraft:levitation",
+    "count": 1,
+    "enchantment": "",
+    "enchantLevel": 1
+  },
+  {
+    "id": "contaminated",
+    "title": "Contaminated ore. Do not lick it.",
+    "grade": "bad",
+    "kind": "effect",
+    "minTier": 0,
+    "items": [
+      {
+        "item": "minecraft:raw_gold",
+        "count": 8
+      }
+    ],
+    "entity": "",
+    "effect": "minecraft:poison",
+    "count": 1,
+    "enchantment": "",
+    "enchantLevel": 1
+  },
+  {
+    "id": "lights_out",
+    "title": "Lights out.",
+    "grade": "bad",
+    "kind": "effect",
+    "minTier": 0,
+    "items": [
+      {
+        "item": "minecraft:torch",
+        "count": 8
+      }
+    ],
+    "entity": "",
+    "effect": "minecraft:blindness",
+    "count": 1,
+    "enchantment": "",
+    "enchantLevel": 1
+  },
+  {
+    "id": "debt_collector",
+    "title": "The debt collector carries eight gold. Collect it.",
+    "grade": "bad",
+    "kind": "mob",
+    "minTier": 0,
+    "items": [],
+    "entity": "minecraft:husk",
+    "effect": "",
+    "count": 1,
+    "enchantment": "",
+    "enchantLevel": 1
+  },
+  {
+    "id": "spider_party",
+    "title": "The web committee.",
+    "grade": "bad",
+    "kind": "mob",
+    "minTier": 0,
+    "items": [
+      {
+        "item": "minecraft:string",
+        "count": 8
+      }
+    ],
+    "entity": "minecraft:spider",
+    "effect": "",
+    "count": 3,
+    "enchantment": "",
+    "enchantLevel": 1
+  },
+  {
+    "id": "hunger",
+    "title": "A feast for somebody else.",
+    "grade": "bad",
+    "kind": "effect",
+    "minTier": 0,
+    "items": [
+      {
+        "item": "minecraft:rotten_flesh",
+        "count": 16
+      }
+    ],
+    "entity": "",
+    "effect": "minecraft:hunger",
+    "count": 2,
+    "enchantment": "",
+    "enchantLevel": 1
+  }
+]

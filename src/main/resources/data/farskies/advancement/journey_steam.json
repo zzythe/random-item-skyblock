@@ -1,0 +1,24 @@
+{
+  "parent": "farskies:journey_press",
+  "display": {
+    "icon": {
+      "id": "create:steam_engine"
+    },
+    "title": {
+      "text": "Room to grow"
+    },
+    "description": {
+      "text": "Craft a steam engine. A boiler needs tanks, heat and water. Ponder shows the complete setup."
+    },
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "crafted": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "create:crafting/kinetics/steam_engine"
+      }
+    }
+  }
+}

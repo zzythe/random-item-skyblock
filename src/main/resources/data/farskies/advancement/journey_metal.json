@@ -1,0 +1,33 @@
+{
+  "parent": "farskies:journey_sifting",
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_ingot"
+    },
+    "title": {
+      "text": "More than scraps"
+    },
+    "description": {
+      "text": "Turn sifted ore chunks into metal, or find supplies on islands."
+    },
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "supplies": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_ingot"
+            ],
+            "count": {
+              "min": 4
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "farskies:island",
+  "biomes": [
+    "farskies:open_sky"
+  ],
+  "step": "top_layer_modification",
+  "spawn_overrides": {},
+  "pool": "farskies:forest_camp",
+  "island_biome": "minecraft:forest",
+  "loot": "theme/birch_forest",
+  "terrain_adaptation": "none"
+}

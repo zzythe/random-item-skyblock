@@ -1,0 +1,12 @@
+{
+  "type": "farskies:island",
+  "biomes": [
+    "farskies:open_sky"
+  ],
+  "step": "top_layer_modification",
+  "spawn_overrides": {},
+  "pool": "skyvoid_biome_islands:basalt_deltas",
+  "island_biome": "minecraft:basalt_deltas",
+  "loot": "theme/basalt_deltas",
+  "terrain_adaptation": "none"
+}

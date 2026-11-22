@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_sapling"
+    },
+    "title": {
+      "text": "Tier 1"
+    },
+    "description": {
+      "text": "Tier 1 items can now arrive in your random drops."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "supply": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "farskies:journey"
+}

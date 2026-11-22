@@ -1,0 +1,19 @@
+.gradle/
+.tools/
+build/
+runs/
+run/
+pack-runtime/
+dist/server/mods/
+*.log
+run-qa/
+run-gametest/
+lucky-block-arena/
+__pycache__/
+publish/work/
+publish/dist-final/
+
+# Built releases are attached to GitHub releases instead
+dist/
+AGENTS.md
+docs/design/

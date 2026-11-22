@@ -1,0 +1,33 @@
+{
+  "parent": "farskies:journey",
+  "display": {
+    "icon": {
+      "id": "minecraft:cobblestone"
+    },
+    "title": {
+      "text": "A steady supply"
+    },
+    "description": {
+      "text": "Make a cobblestone generator. Water and lava are in your starting supplies."
+    },
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "supplies": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cobblestone"
+            ],
+            "count": {
+              "min": 16
+            }
+          }
+        ]
+      }
+    }
+  }
+}

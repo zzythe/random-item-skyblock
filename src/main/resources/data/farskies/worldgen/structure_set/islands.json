@@ -1,0 +1,119 @@
+{
+  "structures": [
+    {
+      "structure": "farskies:badlands",
+      "weight": 2
+    },
+    {
+      "structure": "farskies:basalt_deltas",
+      "weight": 2
+    },
+    {
+      "structure": "farskies:birch_forest",
+      "weight": 3
+    },
+    {
+      "structure": "farskies:cherry_grove",
+      "weight": 2
+    },
+    {
+      "structure": "farskies:crimson_forest",
+      "weight": 2
+    },
+    {
+      "structure": "farskies:dark_forest",
+      "weight": 2
+    },
+    {
+      "structure": "farskies:deep_dark",
+      "weight": 2
+    },
+    {
+      "structure": "farskies:desert",
+      "weight": 2
+    },
+    {
+      "structure": "farskies:dripstone_caves",
+      "weight": 2
+    },
+    {
+      "structure": "farskies:end_highlands",
+      "weight": 2
+    },
+    {
+      "structure": "farskies:ice_spikes",
+      "weight": 2
+    },
+    {
+      "structure": "farskies:jungle",
+      "weight": 3
+    },
+    {
+      "structure": "farskies:lush_caves",
+      "weight": 2
+    },
+    {
+      "structure": "farskies:mangrove_swamp",
+      "weight": 2
+    },
+    {
+      "structure": "farskies:mushroom_fields",
+      "weight": 2
+    },
+    {
+      "structure": "farskies:savanna",
+      "weight": 3
+    },
+    {
+      "structure": "farskies:soul_sand_valley",
+      "weight": 2
+    },
+    {
+      "structure": "farskies:sunflower_plains",
+      "weight": 3
+    },
+    {
+      "structure": "farskies:taiga",
+      "weight": 3
+    },
+    {
+      "structure": "farskies:warped_forest",
+      "weight": 2
+    },
+    {
+      "structure": "farskies:forest_camp",
+      "weight": 1
+    },
+    {
+      "structure": "farskies:oasis",
+      "weight": 1
+    },
+    {
+      "structure": "farskies:tundra",
+      "weight": 1
+    },
+    {
+      "structure": "farskies:igloo",
+      "weight": 1
+    },
+    {
+      "structure": "farskies:mesa_mine",
+      "weight": 1
+    },
+    {
+      "structure": "farskies:ruined_portal",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 5,
+    "separation": 2,
+    "salt": 73195421,
+    "spread_type": "linear",
+    "exclusion_zone": {
+      "other_set": "farskies:soaring",
+      "chunk_count": 4
+    }
+  }
+}

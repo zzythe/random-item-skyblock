@@ -1,0 +1,4 @@
+[common]
+set_void_world_as_default = false
+void_nether_generation = false
+void_end_generation = false

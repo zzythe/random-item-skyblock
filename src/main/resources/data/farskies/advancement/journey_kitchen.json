@@ -1,0 +1,24 @@
+{
+  "parent": "farskies:journey_farming",
+  "display": {
+    "icon": {
+      "id": "farmersdelight:cooking_pot"
+    },
+    "title": {
+      "text": "Your own kitchen"
+    },
+    "description": {
+      "text": "Craft a cooking pot. Heat it over a campfire and add crops; sell spare meals at the market."
+    },
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "crafted": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "farmersdelight:cooking_pot"
+      }
+    }
+  }
+}

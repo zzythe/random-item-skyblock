@@ -1,0 +1,136 @@
+{
+  "version": "0.6.1",
+  "game_versions": [
+    "1.21.1"
+  ],
+  "loaders": [
+    "neoforge"
+  ],
+  "version_type": "release",
+  "changelog": "changelog-0.6.1.md",
+  "mod": {
+    "slug": "random-item-skyblock-core",
+    "title": "Random Item Skyblock Core",
+    "summary": "The game rules behind the Random Item Skyblock modpack: two skyblock teams, a random item every 30 seconds, shared tiers, a neutral market, sky caches and optional raids. Made for the modpack; it needs the pack's mods.",
+    "body": "mod-description.md",
+    "project_type": "mod",
+    "categories": [
+      "game-mechanics",
+      "minigame",
+      "worldgen"
+    ],
+    "additional_categories": [
+      "economy",
+      "adventure"
+    ],
+    "license_id": "MIT",
+    "license_url": null,
+    "source_url": null,
+    "issues_url": null,
+    "discord_url": null,
+    "client_side": "required",
+    "server_side": "required",
+    "environment": "client_and_server",
+    "jar": "../dist/random-item-skyblock-{version}.jar",
+    "version_name": "Random Item Skyblock Core {version}"
+  },
+  "modpack": {
+    "slug": "random-item-skyblock-teams",
+    "title": "Random Item Skyblock: Teams",
+    "summary": "Two skyblock teams start on bare 3x3 pads and get a random item every 30 seconds. Build with Create or Ex Deorum, trade at a neutral market, explore floating islands, and raid the other team if you want to.",
+    "body": "modpack-description.md",
+    "project_type": "modpack",
+    "categories": [
+      "multiplayer",
+      "adventure",
+      "technology"
+    ],
+    "additional_categories": [
+      "combat"
+    ],
+    "license_id": "MIT",
+    "license_url": null,
+    "source_url": null,
+    "issues_url": null,
+    "discord_url": null,
+    "client_side": "required",
+    "server_side": "optional",
+    "environment": "client_and_server",
+    "template": "../dist/Random-Item-Skyblock-{version}.mrpack-template",
+    "output": "dist-final/Random-Item-Skyblock-{version}.mrpack",
+    "server_zip": "../dist/Random-Item-Skyblock-{version}-server.zip",
+    "version_name": "Random Item Skyblock: Teams {version}"
+  },
+  "core_dependencies": [
+    {
+      "slug": "create",
+      "project_id": "LNytGWDc",
+      "version_id": "UjX6dr61"
+    },
+    {
+      "slug": "create-sifting",
+      "project_id": "r018adCw",
+      "version_id": "Z5bTlA6P"
+    },
+    {
+      "slug": "open-parties-and-claims",
+      "project_id": "gF3BGWvG",
+      "version_id": "yWmXD7GW"
+    },
+    {
+      "slug": "chance-cubes",
+      "project_id": "ur82ldLX",
+      "version_id": "1KizaIYB"
+    },
+    {
+      "slug": "pick-up-notifier",
+      "project_id": "ZX66K16c",
+      "version_id": "5NZounJc"
+    },
+    {
+      "slug": "skyblock-biome-islands",
+      "project_id": "LQG2KlS9",
+      "version_id": "DUvhFoWC"
+    },
+    {
+      "slug": "robs-floating-islands",
+      "project_id": "ZliMkJKA",
+      "version_id": "qchytHxX"
+    },
+    {
+      "slug": "farmers-delight",
+      "project_id": "R2OftAxM",
+      "version_id": "XTVZDOol"
+    },
+    {
+      "slug": "kaleidoscope-cookery",
+      "project_id": "v17FatAc",
+      "version_id": "g8w0b2ly"
+    },
+    {
+      "slug": "embers-floating-islands",
+      "project_id": "Ii9sVXDo",
+      "version_id": "NX2vCZkz"
+    },
+    {
+      "slug": "mss-moogs-soaring-structures",
+      "project_id": "RJCLIx7k",
+      "version_id": "O20bIWkj"
+    },
+    {
+      "slug": "moogs-structure-lib",
+      "project_id": "1oUDhxuy",
+      "version_id": "wcg4mE4e"
+    },
+    {
+      "slug": "simple-planes",
+      "project_id": "74piZbBF",
+      "version_id": "tGW6Zlf9"
+    },
+    {
+      "slug": "ex-deorum",
+      "project_id": "WP0FLyzv",
+      "version_id": "NOZ1Zbbu"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "farskies:journey_sifting",
+  "display": {
+    "icon": {
+      "id": "exdeorum:flint_mesh"
+    },
+    "title": {
+      "text": "Choose what to make"
+    },
+    "description": {
+      "text": "Craft a flint mesh. In EMI, check which sieve inputs produce the metal you need."
+    },
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "crafted": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "exdeorum:flint_mesh"
+      }
+    }
+  }
+}

@@ -1,0 +1,79 @@
+[
+  {
+    "key": "plane",
+    "file": "gallery/1-plane.png",
+    "title": "Fly between islands",
+    "caption": "Simple Planes gives fuel-powered travel to distant islands, and basic planes enter the random pool at tier 3. Here one passes the cherry shrine landmark.",
+    "featured": true,
+    "projects": [
+      "modpack"
+    ]
+  },
+  {
+    "key": "start-pad",
+    "file": "gallery/2-start-pad.png",
+    "title": "Your starting pad",
+    "caption": "Each team starts on a bare 3x3 grass pad above the void with a sapling, a water bucket and a lava bucket. A cobblestone generator comes first.",
+    "projects": [
+      "modpack",
+      "mod"
+    ]
+  },
+  {
+    "key": "random-drop",
+    "file": "gallery/3-random-drop.png",
+    "title": "A random drop every 30 seconds",
+    "caption": "Every active player gets a random item every thirty seconds. The corner list shows recent pickups, and the HUD counts down to the next drop and the next shared tier.",
+    "projects": [
+      "modpack",
+      "mod"
+    ]
+  },
+  {
+    "key": "base-create",
+    "file": "gallery/4-base-create.png",
+    "title": "Automate with Create",
+    "caption": "Create is the automation route. On this base a water wheel turns shafts and gearboxes that drive a mechanical press and a millstone.",
+    "projects": [
+      "modpack"
+    ]
+  },
+  {
+    "key": "market",
+    "file": "gallery/5-market.png",
+    "title": "The neutral market",
+    "caption": "The market island between the teams is a protected safe zone with a villager shop, a public kitchen, a workshop and a community chest.",
+    "projects": [
+      "modpack",
+      "mod"
+    ]
+  },
+  {
+    "key": "chance-cube",
+    "file": "gallery/6-chance-cube.png",
+    "title": "Chance Cubes",
+    "caption": "Chance Cubes keep their native rewards, like this flock of witches riding bats. The market sells cubes from the start, and they join random drops at tier 3.",
+    "projects": [
+      "modpack"
+    ]
+  },
+  {
+    "key": "landmark",
+    "file": "gallery/7-landmark.png",
+    "title": "Landmark islands",
+    "caption": "Rarer landmark islands from Ember's Floating Islands, like this steampunk workshop, are bigger builds with their own loot and hazards.",
+    "projects": [
+      "modpack"
+    ]
+  },
+  {
+    "key": "sky-cache",
+    "file": "gallery/8-sky-cache.png",
+    "title": "Sky caches",
+    "caption": "Chat announces a sealed sky cache on an island in the middle. After two minutes, the first team to open it claims the loot.",
+    "projects": [
+      "modpack",
+      "mod"
+    ]
+  }
+]
