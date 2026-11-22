@@ -250,7 +250,7 @@ KEY_TITLES: dict[str, str] = {}  # gallery.json key -> gallery image title
 
 def fill_slots(body: str, gallery: list[dict], server_url: str | None) -> str:
     """Replace ![...](gallery:NAME) slots with gallery image URLs, project links and the server zip link."""
-    by_title = {g.get('title'): g['url'] for g in gallery if g.get('url')}
+    by_title = {g.get('title'): g.get('raw_url') or g['url'] for g in gallery if g.get('url')}  # url is a 350px preview
     def image(match):
         alt, name = match.group(1), match.group(2)
         url = by_title.get(KEY_TITLES.get(name, name))
