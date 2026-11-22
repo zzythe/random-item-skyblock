@@ -11,7 +11,7 @@
   "mod": {
     "slug": "random-item-skyblock-core",
     "title": "Random Item Skyblock Core",
-    "summary": "The game rules behind the Random Item Skyblock modpack: two skyblock teams, a random item every 30 seconds, shared tiers, a neutral market, sky caches and optional raids. Made for the modpack; it needs the pack's mods.",
+    "summary": "The game rules behind Random Item Skyblock: Teams. Random items every 30 seconds, shared tiers, a market, sky caches and raids. Needs the modpack's mods.",
     "body": "mod-description.md",
     "project_type": "mod",
     "categories": [
@@ -37,7 +37,7 @@
   "modpack": {
     "slug": "random-item-skyblock-teams",
     "title": "Random Item Skyblock: Teams",
-    "summary": "Two skyblock teams start on bare 3x3 pads and get a random item every 30 seconds. Build with Create or Ex Deorum, trade at a neutral market, explore floating islands, and raid the other team if you want to.",
+    "summary": "Team skyblock where everyone gets a random item every 30 seconds. Explore floating islands, trade at a neutral market, and raid the other team if you want to.",
     "body": "modpack-description.md",
     "project_type": "modpack",
     "categories": [

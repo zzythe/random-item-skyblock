@@ -1,37 +1,28 @@
-**The game rules behind the [Random Item Skyblock](PACK_URL) modpack: two teams, a random item every 30 seconds, shared tiers, a neutral market and optional raids.**
-
-> **Made for the Random Item Skyblock modpack.** This mod requires about a dozen of the pack's mods (listed below), and it builds its world around them. The easiest way to play is to install the [modpack](PACK_URL), which sets everything up for you.
+The game rules for [Random Item Skyblock: Teams](PACK_URL). It depends on about a dozen of the pack's mods, so the easiest way to play is to install the modpack.
 
 ![Random Item Skyblock](gallery:random-drop)
 
 ## What it adds
 
-- **A void world type, "Random Item Skyblock".** Red and Blue each start on a bare 3x3 grass pad, with a protected market island between them. Exploration islands, landmark islands and Moog's Soaring Structures islands are generated from the world seed.
-- **Teams.** New players join the smaller team. Membership is saved by player UUID. Friendly fire is on.
-- **Random supplies.** Every active player gets one random item every 30 seconds from the full item list. Items are grouped into raw resources (45%), functional items (20%), equipment and food (20%), unusual finds (10%) and decorative variants (5%). Stacks are sized to be useful. A full inventory holds the roll for later, and offline or idle time earns nothing.
-- **Six shared tiers** unlocked by the server's active play time. Higher tiers make better items more likely. A HUD line shows your next drop and the drops left until the next tier.
-- **The market.** A villager shop using the normal trading screen, a public kitchen, a workshop and a community chest. Its original buildings are protected from players, explosions, Create contraptions and pistons. `/market` and `/market home` teleport you between your base and the market.
-- **Sky caches.** Every 45 minutes of active play, while both teams are active, a sealed loot cache can appear on an island in the middle. The first team to open it after two minutes claims it.
-- **Opening truce and raids.** A 30-minute truce, counted in active play time, blocks player damage and enemy-base griefing. After that, bases can be raided. Raiders who die near the enemy base are worn out for a few minutes (slower mining there, and no fire, lava, TNT or Chance Cubes there).
-- **32 extra Chance Cubes outcomes**, added alongside the normal ones. Island supply caches, advancements with build tips, EMI integration, and pick-up notifications for every drop.
+- A Random Item Skyblock world type: two 3x3 starting pads, a market island between them, and floating islands generated from the seed
+- Red and Blue teams. New players join the smaller one
+- A random item every 30 seconds for each active player, mostly raw resources. If your inventory is full, the item waits for the next cycle
+- Six tiers the whole server unlocks together through active play time
+- A protected market with villager trades, a public kitchen, a workshop and a community chest
+- Sky caches every 45 minutes of active play, first team to open one gets the loot
+- A truce for the first 30 minutes, then raids. Raiders who die near the enemy base can't use fire, lava, TNT or Chance Cubes there for a few minutes
+- 32 extra Chance Cubes outcomes, island supply caches, and advancements with build tips
 
 ## Requirements
 
-Minecraft 1.21.1, NeoForge 21.1.265 or newer, Java 21. Required on both the client and the server:
+Minecraft 1.21.1, NeoForge 21.1.265 or newer and Java 21, on both client and server. It also needs Create, Create Sifter, Ex Deorum, Open Parties and Claims, Chance Cubes, Pick Up Notifier, Skyblock Biome Islands, Rob's Floating Islands, Ember's Floating Islands, Moog's Soaring Structures, Moog's Structure Lib, Farmer's Delight, Kaleidoscope Cookery and Simple Planes. Exact versions are listed as dependencies on each version.
 
-Create, Create Sifter, Open Parties and Claims, Chance Cubes, Pick Up Notifier, Skyblock Biome Islands, Rob's Floating Islands, Ember's Floating Islands, Moog's Soaring Structures, Moog's Structure Lib, Farmer's Delight, Kaleidoscope Cookery, Simple Planes, Ex Deorum.
+## Config and commands
 
-The exact versions are listed as dependencies of each version of this mod.
+Settings are in `config/farskies.json` (drop interval, tier times, `truceMinutes` and more). Internal IDs use `farskies` so older worlds keep working.
 
-## Settings and commands
+- `/market` and `/market home` travel to the market and back
+- `/teamswitch <player> Red|Blue` moves a player (operators)
+- `/skies event start` and `/skies event cancel` test sky caches (operators)
 
-- `config/farskies.json`: drop interval, tier thresholds, truce length (`truceMinutes`, `0` turns the truce off) and more.
-- `/teamswitch <player> Red|Blue`: move a player to another team (operators).
-- `/market`, `/market home`: travel to the market and back.
-- `/skies event start`, `/skies event cancel`: test sky caches (operators).
-
-Internal IDs use `farskies` so that older worlds stay compatible.
-
-## License
-
-MIT. Made by zzythe.
+MIT licensed.

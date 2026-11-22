@@ -267,6 +267,7 @@ def main():
     ap.add_argument('--submit', action='store_true', help='submit both projects for review (otherwise they stay drafts)')
     ap.add_argument('--kofi', metavar='URL', help='Ko-fi page for the donation link on both projects')
     ap.add_argument('--server-zip-url', metavar='URL', help='page linking the server zip, e.g. the GitHub release page (Modrinth refuses direct download links)')
+    ap.add_argument('--text-only', action='store_true', help='only re-sync titles, summaries and descriptions of the existing projects')
     ap.add_argument('--check-urls', action='store_true', help='also check every download URL in the final mrpack')
     ap.add_argument('--api', default='https://api.modrinth.com/v2', help='API base (staging: https://staging-api.modrinth.com/v2)')
     args = ap.parse_args()
@@ -295,6 +296,16 @@ def main():
     if args.dry_run: output = output.with_name('DRY-RUN-' + output.name)  # placeholder project/version IDs inside
     common = {'game_versions': listing['game_versions'], 'loaders': listing['loaders'], 'version_type': listing['version_type'],
               'changelog': changelog, 'featured': True, 'status': 'listed', 'version_number': version}
+
+    if args.text_only:
+        for cfg, server in ((mod_cfg, None), (pack_cfg, args.server_zip_url)):
+            project = api.request('GET', f'/project/{cfg["slug"]}')
+            body = fill_slots((HERE / cfg['body']).read_text(encoding='utf-8'), project.get('gallery', []), server)
+            if PLACEHOLDER_SERVER_URL in body: raise SystemExit('Pass --server-zip-url as well.')
+            data = project_data(cfg, body)
+            api.request('PATCH', f'/project/{project["id"]}', json_body={k: data[k] for k in ('title', 'description', 'body')})
+            print(f'Updated the text of {cfg["slug"]}')
+        return
 
     # 1. Core mod.
     mod_body = (HERE / mod_cfg['body']).read_text(encoding='utf-8')
