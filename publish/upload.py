@@ -125,7 +125,8 @@ def ensure_project(api: Api, cfg: dict, body: str, icon: bytes, sim_id: str) -> 
     """Return the project (dict with id, gallery, icon_url, status), creating it as a draft when absent."""
     existing = None if api.dry else api.request('GET', f'/project/{cfg["slug"]}', ok_missing=True)
     if existing:
-        if existing.get('project_type') != cfg['project_type']:
+        # Modrinth derives the type from uploaded versions, so a new draft reads as "project".
+        if existing.get('project_type') not in (cfg['project_type'], 'project'):
             raise SystemExit(f'Slug {cfg["slug"]} is used by a {existing.get("project_type")} project you can see. Pick another slug in listing.json.')
         print(f'Project {cfg["slug"]} exists: {existing["id"]} ({existing["status"]})')
         edit = {k: v for k, v in project_data(cfg, body).items()
@@ -146,7 +147,13 @@ def ensure_project(api: Api, cfg: dict, body: str, icon: bytes, sim_id: str) -> 
 
 def ensure_version(api: Api, project: dict, data: dict, filename: str, payload: bytes, ctype: str, sim_id: str) -> dict:
     if not api.dry:
-        for v in api.request('GET', f'/project/{project["id"]}/version', query={'include_changelog': 'false'}):
+        # A draft's versions need the "Read versions" scope; without it Modrinth answers 404 and
+        # would happily accept a second copy of the same version, so refuse instead of guessing.
+        versions = api.request('GET', f'/project/{project["id"]}/version', query={'include_changelog': 'false'}, ok_missing=True)
+        if versions is None and project.get('versions'):
+            raise SystemExit(f'{project["id"]} already has versions, but this token cannot read them. '
+                             'Add the "Read versions" scope to the token and run again.')
+        for v in versions or []:
             if v['version_number'] == data['version_number']:
                 print(f'Version {data["version_number"]} of {project["id"]} exists: {v["id"]}')
                 return v
@@ -259,7 +266,7 @@ def main():
     ap.add_argument('--dry-run', action='store_true', help='print every request without sending any; still builds the mrpack')
     ap.add_argument('--submit', action='store_true', help='submit both projects for review (otherwise they stay drafts)')
     ap.add_argument('--kofi', metavar='URL', help='Ko-fi page for the donation link on both projects')
-    ap.add_argument('--server-zip-url', metavar='URL', help='public download URL of the server zip (e.g. a GitHub release asset)')
+    ap.add_argument('--server-zip-url', metavar='URL', help='page linking the server zip, e.g. the GitHub release page (Modrinth refuses direct download links)')
     ap.add_argument('--check-urls', action='store_true', help='also check every download URL in the final mrpack')
     ap.add_argument('--api', default='https://api.modrinth.com/v2', help='API base (staging: https://staging-api.modrinth.com/v2)')
     args = ap.parse_args()

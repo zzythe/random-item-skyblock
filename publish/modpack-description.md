@@ -30,7 +30,7 @@ You can play alone. Sky caches and raids need players on both teams.
 
 ## Hosting a server
 
-Download the **server pack** for your version: [Random-Item-Skyblock-server.zip](SERVER_ZIP_URL). You don't need to install Python or Java first.
+Download the **server pack** (`Random-Item-Skyblock-<version>-server.zip`) from the [GitHub release](SERVER_ZIP_URL) for your version. You don't need to install Python or Java first.
 
 - **Windows:** extract the zip into an empty folder and double-click `START-SERVER.cmd`.
 - **Linux / macOS:** extract it and run `sh start.sh`.
