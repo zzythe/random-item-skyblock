@@ -37,7 +37,7 @@
   "modpack": {
     "slug": "random-item-skyblock-teams",
     "title": "Random Item Skyblock: Teams",
-    "summary": "Team skyblock where everyone gets a random item every 30 seconds. Explore floating islands, trade at a neutral market, and raid the other team if you want to.",
+    "summary": "Team skyblock where everyone gets a random item every 30 seconds. Explore floating islands, trade at the market and raid the other team.",
     "body": "modpack-description.md",
     "project_type": "modpack",
     "categories": [

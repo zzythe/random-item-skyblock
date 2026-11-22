@@ -304,6 +304,12 @@ def main():
             if PLACEHOLDER_SERVER_URL in body: raise SystemExit('Pass --server-zip-url as well.')
             data = project_data(cfg, body)
             api.request('PATCH', f'/project/{project["id"]}', json_body={k: data[k] for k in ('title', 'description', 'body')})
+            captions = {g['title']: g['caption'] for g in gallery_cfg}
+            for image in project.get('gallery', []):
+                caption = captions.get(image.get('title'))
+                if caption and caption != image.get('description'):
+                    api.request('PATCH', f'/project/{project["id"]}/gallery',
+                                query={'url': image['url'], 'title': image['title'], 'description': caption})
             print(f'Updated the text of {cfg["slug"]}')
         return
 
